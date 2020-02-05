@@ -9,3 +9,8 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - For Adopting all screen ratio to various platform, Flutter introduced lot of core concepts from web.(i.e)eg. using Row, Column, Stack, Padding and Center.
 - Hot Reload -> Instant run with in a Second.
 - It's a Open source.
+
+# The Anatomy of Flutter App
+
+- Scaffold -> AppBar and Container ->The Container is having Column -> Row and Text -> In Row we are adding Text and Icon.
+- Simply a widget tree that consists of whole number of widgets that are nested with each other.
