@@ -14,3 +14,5 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 
 - Scaffold -> AppBar and Container ->The Container is having Column -> Row and Text -> In Row we are adding Text and Icon.
 - Simply a widget tree that consists of whole number of widgets that are nested with each other.
+
+<a href="url"><img src="http://url.to/image.png" align="left" height="48" width="48" ></a>
