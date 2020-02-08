@@ -2,11 +2,17 @@
 
 - A Flutter is simply a toolkit that makes it easy to developers to design a beautiful interfaces, also screen sizes and devices
 which comes with a whole bunch of pre-build widgets that makes it easy to layout our App.
-- It adopts the screen design widgets according to their platform in a Native way.
+- It adopts the screen design widgets according to their platform in a Native way.(i.e)AlertDialog differs between android and IOS.
 - Deploy that code to different devices and platform with out changing that code.
 - We can build Application in Android, IOS and even Web and Desktop with single code base using Dart.
-- Flutter allows you to build a simple and Flexible layout system to build beautiful interfaces.
 - For Adopting all screen ratio to various platform, Flutter introduced lot of core concepts from web.(i.e)eg. using Row, Column, Stack, Padding and Center.
+
+# Why Flutter
+
+- It is a single code base.
+- Dart -> It is a powerful language that is quite easy to work and is very similar to Oops. So we can learn easily.
+- We can use Flutter and Dart to build Android, IOS mobile Apps and even web application that run on your desktop.
+- Flutter allows you to build a simple and Flexible layout system to build beautiful interfaces.
 - Hot Reload -> Instant run with in a Second.
 - It's a Open source.
 
