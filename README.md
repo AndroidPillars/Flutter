@@ -21,6 +21,11 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - Scaffold -> AppBar and Container ->The Container is having Column -> Row and Text -> In Row we are adding Text and Icon.
 - Simply a widget tree that consists of whole number of widgets that are nested with each other.
 
+# Development Tools
+
+- Android Studio and VS Code.
+- Both are enough capable for developing Flutter.
+
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/48873155/73929836-8b57ce00-48fb-11ea-8f04-2202197a4113.jpg" width="200" height="200" />
