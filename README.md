@@ -25,6 +25,10 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 
 - Android Studio and VS Code.
 - Both are enough capable for developing Flutter.
+- System Space -> 10GB -> For smooth experience.
+- Flutter -> https://flutter.dev/docs/get-started/install
+- Git -> https://git-scm.com
+
 
 
 <p align="center">
