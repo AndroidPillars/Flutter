@@ -45,7 +45,10 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 
 # Installation
 
-- Download Flutter SDK -> Extract -> create a folder named src -> paste -> double click flutter_console.bat -> type flutter --version
+- Download Flutter SDK -> Extract -> create a folder named src -> paste -> double click flutter_console.bat 
+```ruby
+flutter --version
+```
 -> Then set environment variable -> search -> env -> 
 
 
