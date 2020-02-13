@@ -43,6 +43,10 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - Android Apps -> Mac or PC -> Android Studio -> Android Emulatoror Physical device.
 - iOS Apps -> Mac -> Android Studio -> iOS Simulator or Physical device.
 
+# Installation
+
+- Download Flutter SDK -> Extract -> create a folder named src -> paste -> double click flutter_console.bat -> type flutter --version
+-> Then set environment variable -> search -> env -> 
 
 
 
