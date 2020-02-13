@@ -33,7 +33,17 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - Both are enough capable for developing Flutter.
 - System Space -> 10GB -> For smooth experience.
 - Flutter -> https://flutter.dev/docs/get-started/install
+- Android Studio -> https://developer.android.com/studio
+- Xcode -> https://developer.apple.com/xcode/
 - Git -> https://git-scm.com
+- Visual Studio Code -> https://code.visualstudio.com/
+
+# Prerequisites for Flutter Development:
+
+- Android Apps -> Mac or PC -> Android Studio -> Android Emulatoror Physical device.
+- iOS Apps -> Mac -> Android Studio -> iOS Simulator or Physical device.
+
+
 
 
 <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
