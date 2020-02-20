@@ -99,6 +99,16 @@ void main() => runApp(
     );
 ```
 
+# Settings
+
+- File -> Settings -> Editor -> Appearance  -> Enable Show closing label in Dart source code.
+- FlutterInspector -> More Actions -> Hide Debug Mode Banner.
+
+# References
+
+- https://flutter.dev/docs
+- https://material.io/
+- https://www.draw.io/
 
 
 <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
