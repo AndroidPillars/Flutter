@@ -127,7 +127,7 @@ void main() => runApp(
       ),
     );
 ```
-# Change Launcher Icon:
+# Change Launcher Icon
 
 - Select Android Folder -> Select res -> Right Click -> Reveal in Finder (For mac) and show in Explorer (For Windows)
 - Replace the mipmap folders -> Downloaded from  https://appicon.co/
