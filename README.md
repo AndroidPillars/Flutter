@@ -103,7 +103,7 @@ void main() => runApp(
  
 - To Load images from app -> Project Name -> Right Click -> New -> Directory -> images
 - Put some .png format images in that folder.
-- Open pubspec.yaml -> assets -> - images/diamond.png
+- Open pubspec.yaml -> assets -> - images/diamond.png (or) - images/ (To Load All images with out giving their name)
 - Select Packages get 
 
 ```ruby
