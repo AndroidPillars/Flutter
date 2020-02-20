@@ -51,6 +51,15 @@ flutter --version
 ```
 -> Then set environment variable -> search -> env -> 
 
+# Getting Started
+- Open Android Studio -> File -> New Flutter Project -> Project name as 'flutter_demo' -> Next
+- Company domain name as androidpillars.com -> Finish
+
+# MaterialApp Class
+- MaterialApp is a predefined class in a flutter. 
+- It is likely the main or core component of flutter. 
+- MaterialApp is the starting point of your app, it tells Flutter that you are going to use Material components and follow material design in your app.
+
 
 
 <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
