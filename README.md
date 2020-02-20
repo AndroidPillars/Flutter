@@ -127,6 +127,14 @@ void main() => runApp(
       ),
     );
 ```
+# Change Launcher Icon:
+
+- Select Android Folder -> Select res -> Right Click -> Reveal in Finder (For mac) and show in Explorer (For Windows)
+- Replace the mipmap folders -> Downloaded from  https://appicon.co/
+- Select ios Folder -> Select Runner -> then Select Assets.xcassets
+- Replace the Assets.xcassets folders -> Downloaded from  https://appicon.co/
+- In Android for Loading Launcher icons in different styles -> Select Android Folder ->  Select res -> 
+Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> Next -> Finish
 
 # Settings
 
@@ -138,6 +146,7 @@ void main() => runApp(
 - https://flutter.dev/docs
 - https://material.io/
 - https://www.draw.io/
+- https://appicon.co/
 
 
 <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
