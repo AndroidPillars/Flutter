@@ -61,6 +61,8 @@ flutter --version
 - MaterialApp is the starting point of your app, it tells Flutter that you are going to use Material components and follow material design in your app.
 
 ```ruby
+import 'package:flutter/material.dart';
+
 void main() => runApp(
       MaterialApp(
         home: Center(
