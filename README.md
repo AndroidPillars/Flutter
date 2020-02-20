@@ -139,6 +139,13 @@ void main() => runApp(
 - In Android for Loading Launcher icons in different styles -> Select Android Folder ->  Select res -> 
 Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> Next -> Finish
 
+# Running App on a Physical Device
+
+- In Android Mobile -> Go to Settings -> About -> Build number -> Tap multiple times until you get the message 'Developer mode is Enabled'(or) It may vary depending on the versions of the Mobile OS. 
+- In Some Versions of Android -> Settings -> About Phone -> Versions -> Tap multiple times to enable developer option.
+- In settings you will get the menu Developer Options -> Enable Developer Options and USB debugging.
+
+
 # Settings
 
 - File -> Settings -> Editor -> Appearance  -> Enable Show closing label in Dart source code.
@@ -151,11 +158,6 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 - https://www.draw.io/
 - https://appicon.co/
 
-# Running App on a Physical Device
-
-- In Android Mobile -> Go to Settings -> About -> Build number -> Tap multiple times until you get the message 'Developer mode is Enabled'(or) It may vary depending on the versions of the Mobile OS. 
-- In Some Versions of Android -> Settings -> About Phone -> Versions -> Tap multiple times to enable developer option.
-- In settings you will get the menu Developer Options -> Enable Developer Options and USB debugging.
 
 
 <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
