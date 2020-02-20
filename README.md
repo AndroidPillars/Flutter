@@ -74,7 +74,7 @@ void main() => runApp(
 
 # Scaffold Widet
 
-- A Scaffold Widget is used under MaterialApp, it gives you many basic functionalities, like AppBar, BottomNavigationBar, Drawer, FloatingActionButton etc.
+- A Scaffold Widget is used under MaterialApp, it gives you many basic functionalities like AppBar, BottomNavigationBar, Drawer, FloatingActionButton etc.
 
 ```ruby
 import 'package:flutter/material.dart';
