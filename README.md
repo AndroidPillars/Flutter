@@ -8,7 +8,6 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - For Adopting all screen ratio to various platform, Flutter introduced lot of core concepts from web.(i.e)eg. using Row, Column, Stack, Padding and Center.
 
 # Why Flutter
-
 - It is a single code base.
 - Dart -> It is a powerful language that is quite easy to work and is very similar to Oops. So we can learn easily.
 - We can use Flutter and Dart to build Android, IOS mobile Apps and even web application that run on your desktop.
@@ -17,9 +16,9 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - It's a Open source.
 
 # The Anatomy of Flutter App
-
 - Scaffold -> AppBar and Container ->The Container is having Column -> Row and Text -> In Row we are adding Text and Icon.
 - Simply a widget tree that consists of whole number of widgets that are nested with each other.
+
 <p align="center">
  <img src="https://user-images.githubusercontent.com/48873155/74207110-2f4acc00-4ca4-11ea-99cf-e41c9b403b70.png"/>
 </p>
@@ -28,7 +27,6 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 </p>
 
 # Development Tools
-
 - Android Studio and VS Code.
 - Both are enough capable for developing Flutter.
 - System Space -> 10GB -> For smooth experience.
@@ -39,12 +37,10 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - Visual Studio Code -> https://code.visualstudio.com/
 
 # Prerequisites for Flutter Development:
-
 - Android Apps -> Mac or PC -> Android Studio -> Android Emulatoror Physical device.
 - iOS Apps -> Mac -> Android Studio -> iOS Simulator or Physical device.
 
 # Installation
-
 - Download Flutter SDK -> Extract -> create a folder named src -> paste -> double click flutter_console.bat 
 ```ruby
 flutter --version
@@ -73,7 +69,6 @@ void main() => runApp(
 ```  
 
 # Scaffold Widet
-
 - A Scaffold Widget is used under MaterialApp, it gives you many basic functionalities like AppBar, BottomNavigationBar, Drawer, FloatingActionButton etc.
 
 ```ruby
@@ -100,7 +95,6 @@ void main() => runApp(
 ```
 
 # Working with Assets
- 
 - To Load images from app -> Project Name -> Right Click -> New -> Directory -> images
 - Put some .png format images in that folder.
 - Open pubspec.yaml -> assets -> - images/diamond.png (or) - images/ (To Load All images with out giving their name)
@@ -128,7 +122,6 @@ void main() => runApp(
     );
 ```
 # Change Launcher Icon
-
 - Select Android Folder -> Select res -> Right Click -> Reveal in Finder (For mac) and show in Explorer (For Windows)
 - Replace the mipmap folders -> Downloaded from  https://appicon.co/
 - Select ios Folder -> Select Runner -> then Select Assets.xcassets
@@ -137,16 +130,19 @@ void main() => runApp(
 Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> Next -> Finish
 
 # Settings
-
 - File -> Settings -> Editor -> Appearance  -> Enable Show closing label in Dart source code.
 - FlutterInspector -> More Actions -> Hide Debug Mode Banner.
 
 # References
-
 - https://flutter.dev/docs
 - https://material.io/
 - https://www.draw.io/
 - https://appicon.co/
+
+# Running App on a Physical Device
+- In Android Mobile -> Go to Settings -> About -> Build number -> Tap multiple times until you get the message 'Developer mode is Enabled'(or) It may vary depending on the versions of the Mobile OS 
+- In Some Versions of Android -> Settings -> About Phone -> Versions -> Tap multiple times to enable developer option.
+- In settings you will get the menu Developer Options -> Enable Developer Options and USB debugging.
 
 
 <img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
