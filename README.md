@@ -99,6 +99,35 @@ void main() => runApp(
     );
 ```
 
+# Working with Assets
+ 
+- To Load images from app -> Project Name -> Right Click -> New -> Directory -> images
+- Put some .png format images in that folder.
+- Open pubspec.yaml -> assets -> - images/diamond.png
+- Select Packages get 
+
+```ruby
+import 'package:flutter/material.dart';
+
+void main() => runApp(
+      MaterialApp(
+        home: Scaffold(
+          backgroundColor: Colors.blueGrey,
+          appBar: AppBar(
+            centerTitle: true,
+            title: Text('Home'),
+            backgroundColor: Colors.blueGrey[900],
+          ),
+          body: Center(
+            child: Image(
+              image: AssetImage('images/diamond.png')
+            ),
+          ),
+        ),
+      ),
+    );
+```
+
 # Settings
 
 - File -> Settings -> Editor -> Appearance  -> Enable Show closing label in Dart source code.
