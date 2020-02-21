@@ -152,6 +152,7 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 - Paste the URL and choose the Directory path -> Select clone.
 - It displays the popup -> checkout from Version Control -> Choose No.
 - Now choose an existing Android studio project from the downloaded directory path.
+- Once the project gets imported in Android Studio -> select Get dependencies Option.
 
 # Settings
 
