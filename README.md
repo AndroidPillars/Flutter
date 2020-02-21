@@ -150,6 +150,8 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 - Copy the URL link from GitHub by selecting clone or download.
 - Open Android Studio -> check out project from version control -> Select Git. 
 - Paste the URL and choose the Directory path -> Select clone.
+- It displays the popup -> checkout from Version Control -> Choose No.
+- Now choose an existing Android studio project from the downloaded directory path.
 
 # Settings
 
