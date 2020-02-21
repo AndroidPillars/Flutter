@@ -157,6 +157,10 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 - https://material.io/
 - https://www.draw.io/
 - https://appicon.co/
+- https://icons8.com/
+- https://www.vecteezy.com/
+- https://www.canva.com/
+
 
 
 
