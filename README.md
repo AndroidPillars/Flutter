@@ -145,6 +145,11 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 - In Some Versions of Android -> Settings -> About Phone -> Versions -> Tap multiple times to enable developer option.
 - In settings you will get the menu Developer Options -> Enable Developer Options and USB debugging.
 
+# Import project from GitHub
+
+- Copy the URL link from GitHub by selecting clone or download.
+- Open Android Studio -> check out project from version control -> Select Git. 
+- Paste the URL and choose the Directory path -> Select clone.
 
 # Settings
 
