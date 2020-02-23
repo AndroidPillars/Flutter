@@ -55,7 +55,7 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 ```
 - Then Press esc key,
 ```ruby
- -> :wq!
+ :wq!
 ```
 - Download Android from https://developer.android.com/studio
 - Open Android Studio -> Preferences -> Plugins -> Install Flutter -> After reading Third-party plugins Privacy Notes
