@@ -39,6 +39,19 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - Git -> https://git-scm.com
 - Visual Studio Code -> https://code.visualstudio.com/
 
+# Mac Setup
+
+- Download the Flutter SDK in https://flutter.dev/docs/get-started/install
+- Extract the downloaded zip Folder.
+- Move the folder by pressing -> command + up arrow -> till you find Macintosh HD -> Users -> User Name
+- Create a Folder as 'Developer' inside the User Name.
+- Put the Flutter Folder inside the 'Developer'.
+- Open Terminal
+```ruby
+vim .bash_profile
+```
+
+
 # Prerequisites for Flutter Development
 
 - Android Apps -> Mac or PC -> Android Studio -> Android Emulatoror Physical device.
