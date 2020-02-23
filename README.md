@@ -68,18 +68,11 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - Android Apps -> Mac or PC -> Android Studio -> Android Emulatoror Physical device.
 - iOS Apps -> Mac -> Android Studio -> iOS Simulator or Physical device.
 
-# Installation
-
-- Download Flutter SDK -> Extract -> create a folder named src -> paste -> double click flutter_console.bat 
-```ruby
-flutter --version
-```
--> Then set environment variable -> search -> env -> 
-
 # Getting Started
 
-- Open Android Studio -> File -> New Flutter Project -> Project name as 'flutter_demo' -> Next
-- Company domain name as androidpillars.com -> Finish
+- Open Android Studio -> File -> New Flutter Project -> Project name as 'flutter_demo'
+- Check the Flutter SDK path
+- Company domain name as example.com -> Finish
 
 # MaterialApp Class
 
