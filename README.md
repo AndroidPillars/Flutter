@@ -174,7 +174,17 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 - Now choose an existing Android studio project from the downloaded directory path.
 - Once the project gets imported in Android Studio -> select Get dependencies Option.
 
-# Settings
+# Points to get Remember
+
+- For Checking Flutter Version
+```ruby
+flutter --Version
+```
+- For checking local development environment
+```ruby
+flutter --doctor
+```
+
 
 - File -> Settings -> Editor -> Appearance  -> Enable Show closing label in Dart source code.
 - FlutterInspector -> More Actions -> Hide Debug Mode Banner.
