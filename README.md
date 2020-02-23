@@ -50,6 +50,13 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 ```ruby
 vim .bash_profile
 ```
+```ruby
+export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
+```
+Press esc
+```ruby
+ -> :wq!
+```
 
 
 # Prerequisites for Flutter Development
