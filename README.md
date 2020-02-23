@@ -63,11 +63,6 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - Now, Restart Android Studio.
 
 
-# Prerequisites for Flutter Development
-
-- Android Apps -> Mac or PC -> Android Studio -> Android Emulatoror Physical device.
-- iOS Apps -> Mac -> Android Studio -> iOS Simulator or Physical device.
-
 # Getting Started
 
 - Open Android Studio -> File -> New Flutter Project -> Project name as 'flutter_demo'
