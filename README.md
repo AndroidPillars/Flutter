@@ -53,7 +53,7 @@ vim .bash_profile
 ```ruby
 export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 ```
-Press esc
+- Then Press esc key,
 ```ruby
  -> :wq!
 ```
