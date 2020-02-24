@@ -180,6 +180,56 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 - So if you are using States value in your application then After every hot restart the developer gets fully compiled application and all the states will set to their defaults.
 - The app widget tree is completely rebuilt with new typed code. Hot Restart takes much higher time than Hot reload.
 
+# Layout widgets
+
+# Single-child layout widgets 
+
+- Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
+LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
+
+Example:
+```ruby
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,//For disable the debug showing banner
+      home: Scaffold(
+        backgroundColor: Colors.teal,
+        body: Container(
+          child: SafeArea( // SafeArea indicates the Viewing Screen Area
+            child: Container(
+              height: 100.0,
+              width: 100.0,
+              //margin: EdgeInsets.all(20.0), // For all sides
+              //margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 10.0),//For Horizontal and Vertical
+              //margin:  EdgeInsets.fromLTRB(30.0, 10.0, 50.0, 20.0),//For Left, Top, Right and Bottom
+              margin: EdgeInsets.only(left: 30.0),//For Left only
+              padding: EdgeInsets.all(20.0),//EdgeInsets in Padding having the similar Option that of EdgeInsets in margin
+              child: Text('Hello World'),
+              color: Colors.orange,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+```
+
+# Multi-child layout widgets
+
+- Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
+
+- For more please refer, https://flutter.dev/docs/development/ui/widgets/layout
+
 # Points to get Remember
 
 - For Checking Flutter Version
