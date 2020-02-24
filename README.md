@@ -194,6 +194,7 @@ flutter --doctor
 - FlutterInspector -> More Actions -> Hide Debug Mode Banner.
 - Hot Reload works on Stateless and Stateful Widgets only.
 - To show Intension Action -> Select widgets or class and press Alt + Enter
+- To enable Flutter Inspector -> Search -> Flutter Inspector -> Enable Open Flutter Inspector view on app launch
 
 # Documentation References
 
