@@ -196,7 +196,7 @@ class MyApp extends StatelessWidget {
 ```
 
 # 3.2.Working with Card
-- __Read the Documentation in__ 
+__Read the Documentation in__ 
 - https://api.flutter.dev/flutter/material/Card-class.html 
 
 ```ruby
@@ -300,9 +300,9 @@ class MyApp extends StatelessWidget {
 
 ```
 
-# Working with ListTile
-
-- __Read the Documentation in__ https://api.flutter.dev/flutter/material/ListTile-class.html
+# 3.3.Working with ListTile, Column and Divider
+__Read the Documentation in__ 
+- https://api.flutter.dev/flutter/material/ListTile-class.html
 - https://api.flutter.dev/flutter/widgets/Column-class.html
 - https://api.flutter.dev/flutter/material/Divider-class.html
 
