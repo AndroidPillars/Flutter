@@ -1,6 +1,6 @@
-# Working with Cutom Fonts
+# 3.0.Working with Cutom Fonts
 
-- To Load images from app -> Project Name -> Right Click -> New -> Directory -> fonts
+- To Load Custom Fonts from app -> Project Name -> Right Click -> New -> Directory -> fonts
 - Download the font you need in https://fonts.google.com/
 - Paste the downloaded font in fonts folder.
 - Open pubspec.yaml and refer the following documentation(i.e) https://flutter.dev/docs/cookbook/design/fonts#from-packages
@@ -92,8 +92,9 @@ flutter:
 }
 ```
 
-# Working with Material Icons
-- __Read the Documentation in__ https://api.flutter.dev/flutter/material/Icons-class.html
+# 3.1.Working with Material Icons
+- __Read the Documentation in__ 
+- https://api.flutter.dev/flutter/material/Icons-class.html
 - https://material.io/resources/icons/?style=baseline
 - https://www.materialpalette.com/
 
@@ -194,8 +195,9 @@ class MyApp extends StatelessWidget {
 
 ```
 
-# Working with Card
-- __Read the Documentation in__ https://api.flutter.dev/flutter/material/Card-class.html 
+# 3.2.Working with Card
+- __Read the Documentation in__ 
+- https://api.flutter.dev/flutter/material/Card-class.html 
 
 ```ruby
 import 'package:flutter/material.dart';
