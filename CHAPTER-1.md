@@ -69,7 +69,7 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - Check the Flutter SDK path
 - Company domain name as example.com -> Finish
 
-# Points to get Remember
+# 1.6.Points to get Remember
 
 - For Checking Flutter Version
 ```ruby
@@ -85,12 +85,12 @@ flutter --doctor
 - To show Intension Action -> Select widgets or class and press Alt + Enter
 - To enable Flutter Inspector -> Search -> Flutter Inspector -> Enable Open Flutter Inspector view on app launch
 
-# 1.6.Documentation References
+# 1.7.Documentation References
 
 - https://flutter.dev/docs
 - https://material.io/
 
-# 1.7.Tools References
+# 1.8.Tools References
 
 - https://www.draw.io/
 - https://appicon.co/
