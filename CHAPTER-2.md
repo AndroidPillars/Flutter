@@ -1,3 +1,11 @@
+# Working with Cutom Fonts
+
+- To Load images from app -> Project Name -> Right Click -> New -> Directory -> fonts
+- Download the font you need in https://fonts.google.com/
+- Paste the downloaded font in fonts folder.
+- Open pubspec.yaml and refer the following documentation(i.e) https://flutter.dev/docs/cookbook/design/fonts#from-packages
+- Finally Select Packages get 
+
 ```ruby
 import 'package:flutter/material.dart';
 
@@ -45,6 +53,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+__In pubspec.yaml__
 
 ```ruby
 name: mi_card
