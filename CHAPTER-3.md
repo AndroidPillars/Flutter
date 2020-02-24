@@ -93,7 +93,7 @@ flutter:
 ```
 
 # 3.1.Working with Material Icons
-- __Read the Documentation in__ 
+__Read the Documentation in__ 
 - https://api.flutter.dev/flutter/material/Icons-class.html
 - https://material.io/resources/icons/?style=baseline
 - https://www.materialpalette.com/
