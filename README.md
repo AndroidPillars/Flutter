@@ -277,7 +277,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-- For more please refer, 
+__ For more please refer, __
 - https://flutter.dev/docs/development/ui/widgets/layout
 - https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
 
