@@ -193,6 +193,7 @@ flutter --doctor
 - File -> Settings -> Editor -> Appearance  -> Enable Show closing label in Dart source code.
 - FlutterInspector -> More Actions -> Hide Debug Mode Banner.
 - Hot Reload works on Stateless and Stateful Widgets only.
+- To show Intension Action -> Select widgets or class and press Alt + Enter
 
 # Documentation References
 
