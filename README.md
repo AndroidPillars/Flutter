@@ -203,8 +203,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,//For disable the debug showing banner
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Container(
-          child: SafeArea( // SafeArea indicates the Viewing Screen Area
+        body: SafeArea( // SafeArea indicates the Viewing Screen Area
             child: Container(
               height: 100.0,
               width: 100.0,
@@ -217,7 +216,6 @@ class MyApp extends StatelessWidget {
               color: Colors.orange,
             ),
           ),
-        ),
       ),
     );
   }
