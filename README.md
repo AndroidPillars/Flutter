@@ -282,6 +282,16 @@ class MyApp extends StatelessWidget {
 __For more please refer,__
 - https://flutter.dev/docs/development/ui/widgets/layout
 - https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
+- https://medium.com/@dev.n/the-complete-flutter-series-article-2-basic-widgets-and-layout-in-flutter-92a4fbd4a3e1
+
+# Working with Cutom Fonts
+
+- To Load images from app -> Project Name -> Right Click -> New -> Directory -> fonts
+- Download the font you need in https://fonts.google.com/
+- Paste the downloaded font in fonts folder.
+- Open pubspec.yaml and refer the following documentation(i.e) https://flutter.dev/docs/cookbook/design/fonts#from-packages
+- Finally Select Packages get 
+
 
 # Points to get Remember
 
