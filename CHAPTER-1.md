@@ -68,3 +68,32 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - Open Android Studio -> File -> New Flutter Project -> Project name as 'flutter_demo'
 - Check the Flutter SDK path
 - Company domain name as example.com -> Finish
+
+# Points to get Remember
+
+- For Checking Flutter Version
+```ruby
+flutter --Version
+```
+- For checking local development environment
+```ruby
+flutter --doctor
+```
+- File -> Settings -> Editor -> Appearance  -> Enable Show closing label in Dart source code.
+- FlutterInspector -> More Actions -> Hide Debug Mode Banner.
+- Hot Reload works on Stateless and Stateful Widgets only.
+- To show Intension Action -> Select widgets or class and press Alt + Enter
+- To enable Flutter Inspector -> Search -> Flutter Inspector -> Enable Open Flutter Inspector view on app launch
+
+# 1.6.Documentation References
+
+- https://flutter.dev/docs
+- https://material.io/
+
+# 1.7.Tools References
+
+- https://www.draw.io/
+- https://appicon.co/
+- https://icons8.com/
+- https://www.vecteezy.com/
+- https://www.canva.com/
