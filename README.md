@@ -226,7 +226,59 @@ class MyApp extends StatelessWidget {
 
 - Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
 
+```ruby
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false, //For disable the debug showing banner
+      home: Scaffold(
+        backgroundColor: Colors.teal,
+        body: SafeArea(
+            // SafeArea indicates the Viewing Screen Area
+            child: Column( // To make Layout in Vertical Direction
+              // mainAxisSize: MainAxisSize.min, //Which makes the width as wrap content
+              // verticalDirection: VerticalDirection.down, //Which begins from up to down
+              // verticalDirection: VerticalDirection.up, //Which begins from down to up
+              // mainAxisAlignment: MainAxisAlignment.center, // which setting similar to that of layout gravity and gravity
+              // mainAxisAlignment: MainAxisAlignment.spaceEvenly, // which gives equal space to the items similar to that of weight
+              // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              // crossAxisAlignment: CrossAxisAlignment.end, // which indicates that in Opposite side of MainAxisAlignment
+              crossAxisAlignment: CrossAxisAlignment.stretch, // which indicates the child item to fill Parent so that we don't need
+              // to set the width in the Container
+              children: <Widget>[
+                Container(
+                  height: 100.0,
+                  child: Text('Container 1'),
+                  color: Colors.orange,
+                ),
+                SizedBox(height: 20.0,),// Helps us to give empty space
+                Container(
+                  height: 100.0,
+                  child: Text('Container 2'),
+                  color: Colors.blue,
+                ),
+                SizedBox(height: 20.0,),// Helps us to give empty space
+                Container(
+                  height: 100.0,
+                  child: Text('Container 3'),
+                  color: Colors.red,
+                ),
+              ],
+        )),
+      ),
+    );
+  }
+}
+```
 - For more please refer, https://flutter.dev/docs/development/ui/widgets/layout
+- https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
 
 # Points to get Remember
 
