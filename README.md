@@ -31,6 +31,7 @@ __CHAPTER-3__
     3.0.Working with Cutom Fonts  
     3.1.Working with Material Icons  
     3.2.Working with Card  
-    3.3.Working with ListTile, Column and Divider  
+    3.3.Working with ListTile, Column and Divider 
+    3.4.Working with Expanded  
     
 
