@@ -97,3 +97,4 @@ flutter --doctor
 - https://icons8.com/
 - https://www.vecteezy.com/
 - https://www.canva.com/
+- https://www.materialpalette.com/
