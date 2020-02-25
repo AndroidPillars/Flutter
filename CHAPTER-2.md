@@ -153,7 +153,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-# 2.8.2Multi-child layout widgets
+# 2.8.2.Multi-child layout widgets
 
 - Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
 
