@@ -84,6 +84,7 @@ flutter --doctor
 - Hot Reload works on Stateless and Stateful Widgets only.
 - To show Intension Action -> Select widgets or class and press Alt + Enter
 - To enable Flutter Inspector -> Search -> Flutter Inspector -> Enable Open Flutter Inspector view on app launch
+- To use Intension Action -> Select Flutter Outline and press first icon at Top left to set the widget at center.
 
 # 1.7.Documentation References
 
