@@ -87,6 +87,7 @@ flutter --doctor
 - To use Intension Action -> Select Flutter Outline and press first icon at Top left to set the widget at center.
 - If we wanna to remove an widget -> Select widgets -> Yellow bulb icon will show at left side -> where you are having
 the option to remove widget.
+- We can check the warnings through clicking Dart Analysis at Bottom menu.
 
 # 1.7.Documentation References
 
