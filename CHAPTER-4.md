@@ -46,6 +46,7 @@ onPressed: (){
 Var myName = 'Android';
 
 ```
-where, 
-Var is Keyword that says, I am creating a Variable.
-myName is a reference name of the Variable.'Android' is the name assigned to that Variable.
+__where,__ 
+Var is Keyword that says, I am creating a Variable.    
+myName is a reference name of the Variable.    
+'Android' is the name assigned to that Variable.
