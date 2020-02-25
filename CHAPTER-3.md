@@ -399,7 +399,7 @@ class MyApp extends StatelessWidget {
 # 3.4.Working with Expanded
 
 - A Widget that expands a child of a Row, Column, or Flex
-- __Read the Documentation in__ 
+__Read the Documentation in__ 
 - https://api.flutter.dev/flutter/widgets/Expanded-class.html
 
 ```ruby
@@ -458,7 +458,7 @@ class DicePage extends StatelessWidget {
 
 # 3.5.Working with Buttons
 
-- __Read the Documentation in__ 
+__Read the Documentation in__ 
 - https://flutter.dev/docs/development/ui/widgets/material#Buttons
 
 ```ruby
