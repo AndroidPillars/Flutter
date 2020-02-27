@@ -50,3 +50,9 @@ __where,__
 Var is Keyword that says, I am creating a Variable.    
 myName is a reference name of the Variable.    
 'Android' is the name assigned to that Variable.
+
+# 4.2.Data Types
+
+- Dart -> Statically Typed Language.
+- String, int , bool -> all of this data types together known as primitive data types.
+- JavaScript 
