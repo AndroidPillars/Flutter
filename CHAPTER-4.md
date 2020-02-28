@@ -70,7 +70,22 @@ void main() {
   print(a);
 }
 ```
+- Also we can done by using 'dynamic' keyword as below,
+```ruby
+void main() {
+  dynamic a;
+  a = 'HelloWorld';
+  a = 123;
+  print(a);
+}
+```
 - String, int, double , bool -> all of this data types together known as primitive data types.
+```ruby
+void main() {
+  String = 'HelloWorld';
+  int b = 123; 
+}
+```
 - JavaScript is dynamically Typed Language.
 ```ruby
 var a = 'HelloWorld';
