@@ -93,3 +93,4 @@ a = 123;
 console.log(a);
 ```
 - In the the above example, var a is having different data types but being able to change in JavaScript. 
+- It is recommended to use sring, int, decimal instead of using var, dynamic to avoid the datatype errors.
