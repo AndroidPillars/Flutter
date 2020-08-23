@@ -88,6 +88,7 @@ flutter --doctor
 - If we wanna to remove an widget -> Select widgets -> Yellow bulb icon will show at left side -> where you are having
 the option to remove widget.
 - We can check the warnings through clicking Dart Analysis at Bottom menu.
+- For Creating new project in Visual Studio Code -> Command palette -> Flutter: New Project
 
 # 1.7.Documentation References
 
