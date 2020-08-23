@@ -5,7 +5,7 @@
    [1.3.Development Tools](CHAPTER-1.md#13development-tools)    
    [1.4.Mac Setup](CHAPTER-1.md#14mac-setup)    
    [1.5.Getting Started](CHAPTER-1.md#15getting-started)    
-   [1.6.Points to get Remember](CHAPTER-1.md#16points-to-get-remember) 
+   [1.6.Points to get Remember](CHAPTER-1.md#16points-to-get-remember)  
    [1.7.Documentation References](CHAPTER-1.md#17documentation-references)    
    [1.8.Tools References](CHAPTER-1.md#18tools-references)    
 
