@@ -62,6 +62,15 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - It shows pop up as Plugin Dependencies Detected -> Select Yes to install Dart.
 - Now, Restart Android Studio.
 
+# 1.4.Windows Setup
+
+- Download the Flutter SDK in https://flutter.dev/docs/get-started/install
+- Download and install the Git if already not installed in your system.
+- Extract the downloaded zip Folder -> Flutter Recommends the path -> C:\Src\Flutter
+- Now Open C:\Src\flutter -> flutter_console.bat
+- Now set the environment variables -> search env -> Select Environment variables for your account ->  User variables -> path -> Edit -> ;C:\Src\flutter\bin -> Ok
+- Now in Android Studio -> Configure -> plugins -> Search Flutter and install.
+- It shows pop up as Plugin Dependencies Detected -> Select Yes to install Dart.
 
 # 1.5.Getting Started
 
