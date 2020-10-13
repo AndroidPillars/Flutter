@@ -57,7 +57,7 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 ```ruby
  :wq!
 ```
-- Download Android from https://developer.android.com/studio
+- Download Android Studio from https://developer.android.com/studio
 - Open Android Studio -> Preferences -> Plugins -> Install Flutter -> After reading Third-party plugins Privacy Notes
 - It shows pop up as Plugin Dependencies Detected -> Select Yes to install Dart.
 - Now, Restart Android Studio.
