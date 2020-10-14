@@ -62,7 +62,7 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - It shows pop up as Plugin Dependencies Detected -> Select Yes to install Dart.
 - Now, Restart Android Studio.
 
-# 1.4.Windows Setup
+# 1.5.Windows Setup
 
 - Download the Flutter SDK in https://flutter.dev/docs/get-started/install
 - Download and install the Git if already not installed in your system.
@@ -73,13 +73,13 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - It shows pop up as Plugin Dependencies Detected -> Select Yes to install Dart.
 - Now, Restart Android Studio.
 
-# 1.5.Getting Started
+# 1.6.Getting Started
 
 - Open Android Studio -> File -> New Flutter Project -> Project name as 'flutter_demo'
 - Check the Flutter SDK path
 - Company domain name as example.com -> Finish
 
-# 1.6.Points to get Remember
+# 1.7.Points to get Remember
 
 - For Checking Flutter Version
 ```ruby
@@ -100,13 +100,13 @@ the option to remove widget.
 - We can check the warnings through clicking Dart Analysis at Bottom menu.
 - For Creating new project in Visual Studio Code -> Command palette -> Flutter: New Project
 
-# 1.7.Documentation References
+# 1.8.Documentation References
 
 - https://flutter.dev/docs
 - https://material.io/
 - https://dartpad.dartlang.org/
 
-# 1.8.Tools References
+# 1.9.Tools References
 
 - https://www.draw.io/
 - https://appicon.co/
