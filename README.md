@@ -4,10 +4,11 @@
    [1.2.The Anatomy of Flutter App](CHAPTER-1.md#12the-anatomy-of-flutter-app)    
    [1.3.Development Tools](CHAPTER-1.md#13development-tools)    
    [1.4.Mac Setup](CHAPTER-1.md#14mac-setup)    
-   [1.5.Getting Started](CHAPTER-1.md#15getting-started)    
-   [1.6.Points to get Remember](CHAPTER-1.md#16points-to-get-remember)  
-   [1.7.Documentation References](CHAPTER-1.md#17documentation-references)    
-   [1.8.Tools References](CHAPTER-1.md#18tools-references)    
+   [1.5.Windows Setup](CHAPTER-1.md#15windows-setup)  
+   [1.6.Getting Started](CHAPTER-1.md#16getting-started)    
+   [1.7.Points to get Remember](CHAPTER-1.md#17points-to-get-remember)  
+   [1.8.Documentation References](CHAPTER-1.md#18documentation-references)    
+   [1.9.Tools References](CHAPTER-1.md#19tools-references)    
 
 
     
