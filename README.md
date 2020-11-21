@@ -1,4 +1,6 @@
-## CHAPTER-1
+## Flutter
+
+__CHAPTER-1__  
 
 | S.No | Content |
 | --------	 | ------------ |
@@ -20,11 +22,12 @@ __CHAPTER-2__
 | S.No | Content |
 | --------	 | ------------ |
 | 1 | [MaterialApp Class](CHAPTER-2.md#materialapp-class) |
-    2.0.MaterialApp Class  
-    2.1.Scaffold Widet  
-    2.2.Working with Assets  
-    2.3.Change Launcher Icon  
-    2.4.Running App on a Physical Device   
+| 2 | [Scaffold Widet](CHAPTER-2.md#scaffold-widet) |
+| 3 | [Working with Assets](CHAPTER-2.md#working-with-assets) |
+| 4 | [Change Launcher Icon](CHAPTER-2.md#change-launcher-icon) |
+| 5 | [Running App on a Physical Device](CHAPTER-2.md#running-app-on-a-physical-device) |
+   
+    2.4.   
     2.5.Import project from GitHub  
     2.6.Hot Reload
     2.7.Hot Restart  
