@@ -83,7 +83,7 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 
 - For Checking Flutter Version
 ```ruby
-flutter --Version
+flutter --version
 ```
 - For checking local development environment
 ```ruby
