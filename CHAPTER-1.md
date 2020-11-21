@@ -87,7 +87,7 @@ flutter --version
 ```
 - For checking local development environment
 ```ruby
-flutter --doctor
+flutter doctor
 ```
 - File -> Settings -> Editor -> Appearance  -> Enable Show closing label in Dart source code.
 - FlutterInspector -> More Actions -> Hide Debug Mode Banner.
