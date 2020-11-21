@@ -1,14 +1,17 @@
 ## CHAPTER-1
-   [1.0.Flutter](CHAPTER-1.md#10flutter)    
-   [1.1.Why Flutter](CHAPTER-1.md#11why-flutter)    
-   [1.2.The Anatomy of Flutter App](CHAPTER-1.md#12the-anatomy-of-flutter-app)    
-   [1.3.Development Tools](CHAPTER-1.md#13development-tools)    
-   [1.4.Mac Setup](CHAPTER-1.md#14mac-setup)    
-   [1.5.Windows Setup](CHAPTER-1.md#15windows-setup)  
-   [1.6.Getting Started](CHAPTER-1.md#16getting-started)    
-   [1.7.Points to get Remember](CHAPTER-1.md#17points-to-get-remember)  
-   [1.8.Documentation References](CHAPTER-1.md#18documentation-references)    
-   [1.9.Tools References](CHAPTER-1.md#19tools-references)    
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Flutter](CHAPTER-1.md#10flutter) | 
+| 2 | [Why Flutter](CHAPTER-1.md#11why-flutter) |    
+| 3 | [The Anatomy of Flutter App](CHAPTER-1.md#12the-anatomy-of-flutter-app) |  
+| 4 | [Development Tools](CHAPTER-1.md#13development-tools) |  
+| 5 | [Windows Setup](CHAPTER-1.md#15windows-setup) |
+| 6 | [Mac Setup](CHAPTER-1.md#14mac-setup) | 
+| 7 | [Getting Started](CHAPTER-1.md#16getting-started) |   
+| 8 | [Points to get Remember](CHAPTER-1.md#17points-to-get-remember) | 
+| 9 | [Documentation References](CHAPTER-1.md#18documentation-references) |   
+| 10 | [Tools References](CHAPTER-1.md#19tools-references) |
 
 
     
