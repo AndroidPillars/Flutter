@@ -110,7 +110,7 @@ the option to remove widget.
 
 - https://www.draw.io/ [FlowChart Maker]
 - https://appicon.co/ [App Launcher Icon Generator]
-- https://icons8.com/
-- https://www.vecteezy.com/
-- https://www.canva.com/
+- https://icons8.com/ [Image Picker]
+- https://www.vecteezy.com/ [Image Picker]
+- https://www.canva.com/ [Image Picker]
 - https://www.materialpalette.com/
