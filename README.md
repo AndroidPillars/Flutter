@@ -6,8 +6,8 @@
 | 2 | [Why Flutter](CHAPTER-1.md#why-flutter) |    
 | 3 | [The Anatomy of Flutter App](CHAPTER-1.md#the-anatomy-of-flutter-app) |  
 | 4 | [Development Tools](CHAPTER-1.md#development-tools) |  
-| 5 | [Windows Setup](CHAPTER-1.md#windows-setup) |
-| 6 | [Mac Setup](CHAPTER-1.md#mac-setup) | 
+| 5 | [Mac Setup](CHAPTER-1.md#mac-setup) |
+| 6 | [Windows Setup](CHAPTER-1.md#windows-setup) |
 | 7 | [Getting Started](CHAPTER-1.md#getting-started) |   
 | 8 | [Points to get Remember](CHAPTER-1.md#points-to-get-remember) | 
 | 9 | [Documentation References](CHAPTER-1.md#documentation-references) |   
