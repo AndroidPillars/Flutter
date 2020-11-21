@@ -108,8 +108,8 @@ the option to remove widget.
 
 # Tools References
 
-- https://www.draw.io/
-- https://appicon.co/
+- https://www.draw.io/ [FlowChart Maker]
+- https://appicon.co/ [App Launcher Icon Generator]
 - https://icons8.com/
 - https://www.vecteezy.com/
 - https://www.canva.com/
