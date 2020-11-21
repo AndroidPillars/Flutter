@@ -17,6 +17,9 @@
     
 __CHAPTER-2__  
 
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [MaterialApp Class](CHAPTER-2.md#materialapp-class) |
     2.0.MaterialApp Class  
     2.1.Scaffold Widet  
     2.2.Working with Assets  
