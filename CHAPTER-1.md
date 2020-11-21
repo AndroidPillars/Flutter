@@ -114,3 +114,4 @@ the option to remove widget.
 - https://www.vecteezy.com/ [Image Picker]
 - https://www.canva.com/ [Image Picker]
 - https://www.materialpalette.com/
+- https://github.com/londonappbrewery/Flutter-Course-Resources [Course]
