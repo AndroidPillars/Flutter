@@ -1,4 +1,4 @@
-# 2.0.MaterialApp Class
+# MaterialApp Class
 
 - MaterialApp is a predefined class in a flutter. 
 - It is likely the main or core component of flutter. 
@@ -16,7 +16,7 @@ void main() => runApp(
     );
 ```  
 
-# 2.1.Scaffold Widet
+# Scaffold Widet
 
 - A Scaffold Widget is used under MaterialApp, it gives you many basic functionalities like AppBar, BottomNavigationBar, Drawer, FloatingActionButton etc.
 - __In Other terms,__ A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. 
@@ -45,7 +45,7 @@ void main() => runApp(
     );
 ```
 
-# 2.2.Working with Assets
+# Working with Assets
 
 - To Load images from app -> Project Name -> Right Click -> New -> Directory -> images
 - Put some .png format images in that folder.
@@ -73,7 +73,7 @@ void main() => runApp(
       ),
     );
 ```
-# 2.3.Change Launcher Icon
+# Change Launcher Icon
 
 - Select Android Folder -> Select res -> Right Click -> Reveal in Finder (For mac) and show in Explorer (For Windows)
 - Replace the mipmap folders -> Downloaded from  https://appicon.co/
@@ -82,13 +82,13 @@ void main() => runApp(
 - In Android for Loading Launcher icons in different styles -> Select Android Folder ->  Select res -> 
 Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> Next -> Finish
 
-# 2.4.Running App on a Physical Device
+# Running App on a Physical Device
 
 - In Android Mobile -> Go to Settings -> About -> Build number -> Tap multiple times until you get the message 'Developer mode is Enabled'(or) It may vary depending on the versions of the Mobile OS. 
 - In Some Versions of Android -> Settings -> About Phone -> Versions -> Tap multiple times to enable developer option.
 - In settings you will get the menu Developer Options -> Enable Developer Options and USB debugging.
 
-# 2.5.Import project from GitHub
+# Import project from GitHub
 
 - Copy the URL link from GitHub by selecting clone or download.
 - Open Android Studio -> check out project from version control -> Select Git. 
@@ -97,23 +97,23 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 - Now choose an existing Android studio project from the downloaded directory path.
 - Once the project gets imported in Android Studio -> select Get dependencies Option.
 
-# 2.6.Hot Reload
+# Hot Reload
 
 - Hot reload feature quickly compile the newly added code in our file and sent the code to Dart Virtual Machine.
 - Once done updating the Code Dart Virtual Machine update the app UI with widgets.
 - Hot Reload takes less time then Hot restart.
 - There is also a draw back in Hot Reload, If you are using States in your application then Hot Reload preservers the States so they will not update on Hot Reload our set to their default values. 
 
-# 2.7.Hot Restart
+# Hot Restart
 
 - Hot restart is much different than hot reload.
 - In Hot restart it destroys the preserves State value and set them to their default.
 - So if you are using States value in your application then After every hot restart the developer gets fully compiled application and all the states will set to their defaults.
 - The app widget tree is completely rebuilt with new typed code. Hot Restart takes much higher time than Hot reload.
 
-# 2.8.Layout widgets
+# Layout widgets
 
-# 2.8.1.Single-child layout widgets 
+# Single-child layout widgets 
 
 - Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
 LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
@@ -153,7 +153,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-# 2.8.2.Multi-child layout widgets
+# Multi-child layout widgets
 
 - Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
 
