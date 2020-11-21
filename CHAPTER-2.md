@@ -84,9 +84,24 @@ Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> N
 
 # Running App on a Physical Device
 
+__For Android,__
 - In Android Mobile -> Go to Settings -> About -> Build number -> Tap multiple times until you get the message 'Developer mode is Enabled'(or) It may vary depending on the versions of the Mobile OS. 
 - In Some Versions of Android -> Settings -> About Phone -> Versions -> Tap multiple times to enable developer option.
 - In settings you will get the menu Developer Options -> Enable Developer Options and USB debugging.
+
+__For IOS,__  
+- For IOS, you need an Apple ID and Xcode.
+- IOS version is compatible with the Xcode Version.
+- Install homebrew.
+- Use homebrew to install ideviceinstaller,ios-deploy and cocoapods.
+- Add appleid to Xcode.
+- Right click ios Folder from the project -> Open IOS module in Xcode. (or) Reveal in folder -> open ios Folder -> Double click Runner.xcworkspace.
+- Now Click Runner Project -> In signing -> Team -> Add Account by using your AppleID and set your Name.
+- In phone -> Settings -> General -> Device Management -> Enterprise App -> Trust.
+- Now finally, Create a unique Bundle ID. (i.e) Runner -> Bundle Identifier -> com gowtham.appName
+- In AndroidStudio -> Tools -> Flutter -> Flutter doctor -> to check the configuration is done correctly.
+- For Further reference, check https://flutter.dev/docs/get-started/install/macos#set-up-the-ios-simulator
+
 
 # Import project from GitHub
 
