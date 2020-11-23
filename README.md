@@ -26,11 +26,14 @@ __CHAPTER-2__
 | 3 | [Working with Assets](CHAPTER-2.md#working-with-assets) |
 | 4 | [Change Launcher Icon](CHAPTER-2.md#change-launcher-icon) |
 | 5 | [Running App on a Physical Device](CHAPTER-2.md#running-app-on-a-physical-device) |
+| 6 | [Import project from GitHub](CHAPTER-2.md#import-project-from-github) |
+| 7 | [Hot Reload](CHAPTER-2.md#hot-reload) |
+| 8 | [Hot Restart](CHAPTER-2.md#hot-restart) |
    
     2.4.   
-    2.5.Import project from GitHub  
-    2.6.Hot Reload
-    2.7.Hot Restart  
+    2.5.  
+    2.6.
+    2.7.  
     2.8.Layout widgets  
         2.8.1.Single-child layout widgets
         2.8.2.Multi-child layout widgets
