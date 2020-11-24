@@ -15,8 +15,7 @@ __CHAPTER-1__
 | 9 | [Documentation References](CHAPTER-1.md#documentation-references) |   
 | 10 | [Tools References](CHAPTER-1.md#tools-references) |
 
-
-    
+ 
 __CHAPTER-2__  
 
 | S.No | Content |
@@ -29,14 +28,10 @@ __CHAPTER-2__
 | 6 | [Import project from GitHub](CHAPTER-2.md#import-project-from-github) |
 | 7 | [Hot Reload](CHAPTER-2.md#hot-reload) |
 | 8 | [Hot Restart](CHAPTER-2.md#hot-restart) |
-   
-    2.4.   
-    2.5.  
-    2.6.
-    2.7.  
-    2.8.Layout widgets  
-        2.8.1.Single-child layout widgets
-        2.8.2.Multi-child layout widgets
+| 9 | [Layout widgets](CHAPTER-2.md#layout-widgets) |
+| 10 | [Single-child layout widgets](CHAPTER-2.md#single-child-layout-widgets) |
+| 11 | [Multi-child layout widgets](CHAPTER-2.md#multi-child-layout-widgets) |
+
     
 __CHAPTER-3__  
 
