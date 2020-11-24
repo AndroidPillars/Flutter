@@ -1,4 +1,4 @@
-# 3.0.Working with Cutom Fonts
+# Working with Cutom Fonts
 
 - To Load Custom Fonts from app -> Project Name -> Right Click -> New -> Directory -> fonts
 - Download the font you need in https://fonts.google.com/
@@ -92,7 +92,7 @@ flutter:
 }
 ```
 
-# 3.1.Working with Material Icons
+# Working with Material Icons
 __Read the Documentation in__ 
 - https://api.flutter.dev/flutter/material/Icons-class.html
 - https://material.io/resources/icons/?style=baseline
