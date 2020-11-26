@@ -35,12 +35,15 @@ __CHAPTER-2__
     
 __CHAPTER-3__  
 
-    3.0.Working with Cutom Fonts  
-    3.1.Working with Material Icons  
-    3.2.Working with Card  
-    3.3.Working with ListTile, Column and Divider 
-    3.4.Working with Expanded  
-    3.5.Working with Buttons 
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Working with Cutom Fonts](CHAPTER-3.md#working-with-cutom-fonts) |
+| 2 | [Working with Material Icons](CHAPTER-3.md#working-with-material-icons) |
+| 3 | [Working with Card](CHAPTER-3.md#working-with-card) |
+| 4 | [Working with ListTile, Column and Divider](CHAPTER-3.md#working-with-listtile-column-and-divider) |
+| 5 | [Working with Expanded](CHAPTER-3.md#working-with-expanded) |
+| 6 | [Working with Buttons](CHAPTER-3.md#working-with-buttons) |
+
     
 __CHAPTER-4__
 
