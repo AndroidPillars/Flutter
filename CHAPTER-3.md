@@ -195,7 +195,7 @@ class MyApp extends StatelessWidget {
 
 ```
 
-# 3.2.Working with Card
+# Working with Card
 __Read the Documentation in__ 
 - https://api.flutter.dev/flutter/material/Card-class.html 
 
@@ -300,7 +300,7 @@ class MyApp extends StatelessWidget {
 
 ```
 
-# 3.3.Working with ListTile, Column and Divider
+# Working with ListTile, Column and Divider
 __Read the Documentation in__ 
 - https://api.flutter.dev/flutter/material/ListTile-class.html
 - https://api.flutter.dev/flutter/widgets/Column-class.html
@@ -396,7 +396,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-# 3.4.Working with Expanded
+# Working with Expanded
 
 - A Widget that expands a child of a Row, Column, or Flex
 __Read the Documentation in__ 
@@ -456,7 +456,7 @@ class DicePage extends StatelessWidget {
 
 ```
 
-# 3.5.Working with Buttons
+# Working with Buttons
 
 __Read the Documentation in__ 
 - https://flutter.dev/docs/development/ui/widgets/material#Buttons
