@@ -111,4 +111,62 @@ __Stateless Widget:__
 - Stateful Widgets are dynamic widgets.
 - They can be updated during runtime based on user action or data change.
 - Stateful Widgets have an internal state and can re-render if the input data changes or if the Widget’s state changes.
-- For Example: Checkbox, Radio Button, Slider are Stateful Widgets
+- For Example: Checkbox, Radio Button, Slider are Stateful Widgets.
+
+```ruby
+import 'package:flutter/material.dart';
+
+void main() {
+  return runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.red,
+        appBar: AppBar(
+          title: Text('Dicee'),
+          backgroundColor: Colors.red,
+        ),
+        body: DicePage(),
+      ),
+    ),
+  );
+}
+
+class DicePage extends StatefulWidget {
+  @override
+  _State createState() => _State();
+}
+
+class _State extends State<StatefulWidget> {
+  var mDiceFive = 1;
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Row(
+        children: <Widget>[
+          Expanded(
+            flex: 1,
+            child: FlatButton(
+              onPressed: () {
+                setState(() {
+                  mDiceFive = 5;
+                });
+              },
+              child: Image(
+                image: AssetImage('images/dice$mDiceFive.png'),
+              ),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: FlatButton(
+              onPressed: () {},
+              child: Image.asset('images/dice2.png'),
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+```
