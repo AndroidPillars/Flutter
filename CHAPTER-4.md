@@ -1,4 +1,4 @@
-# 4.0.Functions[Dart]
+# Functions[Dart]
 
 - A function is a block of organized, reusable code that is used to perform a single, related action.
 - Creating the Function
@@ -38,19 +38,19 @@ onPressed: (){
 }
 ```
 
-# 4.1.Variables[Dart]
+# Variables[Dart]
 
 - Variable is “a named space in the memory” that stores values. In other words, it acts a container for values in a program.
 
 ```ruby
-Var myName = 'Android';
+var myName = 'Android';
 ```
 __where,__ 
 Var is Keyword that says, I am creating a Variable.    
 myName is a reference name of the Variable.    
 'Android' is the name assigned to that Variable.
 
-# 4.2.Data Types
+# Data Types
 
 - Dart -> Statically Typed Language.
 ```ruby
@@ -94,3 +94,21 @@ console.log(a);
 ```
 - In the the above example, var a is having different data types but being able to change in JavaScript. 
 - It is recommended to use sring, int, decimal instead of using var, dynamic to avoid the datatype errors.
+
+# Stateful vs Stateless Widget
+
+__Stateless Widget:__
+
+- A widget that has an immutable state.
+- Stateless Widgets are static widgets.
+- They do not depend on any data change or any behavior change.
+- Stateless Widgets do not have a state, they will be rendered once and will not update themselves, but will only be updated when external data changes.
+- For Example: Text, Icon, RaisedButton are Stateless Widgets.
+
+__Stateless Widget:__
+
+- A widget that has a mutable state.
+- Stateful Widgets are dynamic widgets.
+- They can be updated during runtime based on user action or data change.
+- Stateful Widgets have an internal state and can re-render if the input data changes or if the Widget’s state changes.
+- For Example: Checkbox, Radio Button, Slider are Stateful Widgets
