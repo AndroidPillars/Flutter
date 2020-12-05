@@ -140,7 +140,12 @@ class _QuizPageState extends State<QuizPage> {
                 ),
               ),
               onPressed: () {
-                //The user picked false.
+                 setState(() {
+                  mStoreKeeper.add(Icon(
+                    Icons.close,
+                    color: Colors.red,
+                  ));
+                });
               },
             ),
           ),
@@ -263,7 +268,7 @@ class _QuizPageState extends State<QuizPage> {
               ),
               onPressed: () {
                 bool mCorrectAnswer = mAnswers[mQuestionNumber];
-                if (mCorrectAnswer == true) {
+                if (mCorrectAnswer == false) {
                   print('The Answer is Correct');
                 } else {
                   print('The Answer is Wrong');
