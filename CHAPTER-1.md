@@ -99,12 +99,14 @@ flutter doctor
 the option to remove widget.
 - We can check the warnings through clicking Dart Analysis at Bottom menu.
 - For Creating new project in Visual Studio Code -> Command palette -> Flutter: New Project
+- In Android Studio -> VCS -> Local History -> Show History where we can revert to the previous changes.
 
 # Documentation References
 
 - https://flutter.dev/docs
 - https://material.io/
 - https://dartpad.dartlang.org/
+- https://github.com/londonappbrewery/Flutter-Course-Resources [Course]
 
 # Tools References
 
@@ -114,4 +116,4 @@ the option to remove widget.
 - https://www.vecteezy.com/ [Image Picker]
 - https://www.canva.com/ [Image Picker]
 - https://www.materialpalette.com/
-- https://github.com/londonappbrewery/Flutter-Course-Resources [Course]
+
