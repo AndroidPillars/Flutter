@@ -100,6 +100,7 @@ the option to remove widget.
 - We can check the warnings through clicking Dart Analysis at Bottom menu.
 - For Creating new project in Visual Studio Code -> Command palette -> Flutter: New Project
 - In Android Studio -> VCS -> Local History -> Show History where we can revert to the previous changes.
+- Name Suggestions in Android Studio -> Right Click -> Spelling -> Save 'any name' to project-level dictionary.
 
 # Documentation References
 
