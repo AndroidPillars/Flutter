@@ -73,5 +73,5 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
-  english_words: ^3.1.5
+  audioplayers: ^0.17.0
 ```
