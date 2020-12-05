@@ -109,6 +109,27 @@ int multiply(int n1, int n2){
 }
 ```
 
+__Using Arrow Function__
+
+```ruby
+void main() {
+  
+  int Step1Result = add(n1: 5, n2: 9);
+  
+  int Step2Result = multiply(Step1Result, 5);
+  
+  double finalResult = Step2Result / 3;
+  
+  print(finalResult);
+    
+}
+
+int add({int n1, int n2}) => n1 + n2;
+  
+
+int multiply(int n1, int n2) => n1 * n2;
+```
+
 # Variables[Dart]
 
 - Variable is “a named space in the memory” that stores values. In other words, it acts a container for values in a program.
