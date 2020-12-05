@@ -36,3 +36,42 @@ dependencies:
   cupertino_icons: ^0.1.2
   english_words: ^3.1.5
 ```
+
+# Playing Sound using Dart Packages
+
+```ruby
+import 'package:flutter/material.dart';
+import 'package:audioplayers/audio_cache.dart';
+
+void main() => runApp(XylophoneApp());
+
+class XylophoneApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: SafeArea(
+          child: Center(
+              child: FlatButton(
+            onPressed: () {
+              final mPlayer = AudioCache();
+              mPlayer.play('note1.wav');
+            },
+            child: Text('Click Me'),
+          )),
+        ),
+      ),
+    );
+  }
+}
+```
+__In pubspec.yaml__
+
+```ruby
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  english_words: ^3.1.5
+```
