@@ -62,6 +62,25 @@ void getTotalValues({mNumbers}){
 }
 ```
 
+- Return Function,
+
+```ruby
+void main() {
+  
+  int mNumber = getTotalValues();
+  
+  print(mNumber);
+    
+}
+
+int getTotalValues(){
+  
+ int i = 4;
+  
+  return i * 4;
+}
+```
+
 # Variables[Dart]
 
 - Variable is “a named space in the memory” that stores values. In other words, it acts a container for values in a program.
