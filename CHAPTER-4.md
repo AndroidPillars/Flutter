@@ -38,6 +38,30 @@ onPressed: (){
 }
 ```
 
+- Passing Arguements and Inputs in Function
+
+```ruby
+void functionName(int mNumbers){
+  mValues = 1.5 + mNumbers;
+}
+
+functionName(2);
+```
+
+```ruby
+void main() {
+  
+  getTotalValues(mNumbers: 2);
+    
+}
+
+void getTotalValues({mNumbers}){
+  
+  print('TotalValues $mNumbers');
+  
+}
+```
+
 # Variables[Dart]
 
 - Variable is “a named space in the memory” that stores values. In other words, it acts a container for values in a program.
