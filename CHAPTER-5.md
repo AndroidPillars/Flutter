@@ -26,3 +26,13 @@ class XylophoneApp extends StatelessWidget {
 }
 
 ```
+__In pubspec.yaml__
+
+```ruby
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  english_words: ^3.1.5
+```
