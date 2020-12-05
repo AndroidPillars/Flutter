@@ -55,7 +55,7 @@ void main() {
     
 }
 
-void getTotalValues({mNumbers}){
+void getTotalValues({int mNumbers}){
   
   print('TotalValues $mNumbers');
   
