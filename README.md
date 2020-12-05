@@ -47,7 +47,12 @@ __CHAPTER-3__
     
 __CHAPTER-4__
 
-    4.0.Functions[Dart]  
-    4.1.Variables[Dart]
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Functions[Dart]](CHAPTER-4.md#functionsdart) |
+| 2 | [Variables[Dart]](CHAPTER-4.md#variablesdart) |
+| 3 | [Data Types](CHAPTER-4.md#data-types) |
+| 4 | [Stateful vs Stateless Widget](CHAPTER-4.md#stateful-vs-stateless-widget) |
+| 5 | [Working with Expanded](CHAPTER-3.md#working-with-expanded) |
     
 
