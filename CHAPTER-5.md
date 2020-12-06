@@ -292,3 +292,8 @@ class _QuizPageState extends State<QuizPage> {
   }
 }
 ```
+
+# Classes and Objects
+
+- A class is simply a blueprint and is used to create all of the things that we're going to be showing in our app and the user is going to be interacting with. 
+- So essentially, everything that makes up our app is going to be created using a blueprint that's called a class.
