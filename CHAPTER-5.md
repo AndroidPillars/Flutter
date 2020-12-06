@@ -297,3 +297,29 @@ class _QuizPageState extends State<QuizPage> {
 
 - A class is simply a blueprint and is used to create all of the things that we're going to be showing in our app and the user is going to be interacting with. 
 - So essentially, everything that makes up our app is going to be created using a blueprint that's called a class.
+- A class has two important things (i.e.) Properties and Methods.
+- Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
+
+__Creating the Class__
+
+```ruby
+class car {
+  
+  int numberOfDoors = 5;
+  
+  void drive(){
+    print('wheels start turning');
+  }
+    
+}
+```
+
+- where int numberOfDoors = 5 is the varaible(i.e.) Properties and void drive() is the function(i.e.) Methods
+
+__Creating an Object from the Class__
+
+```ruby
+Car myCar = Car();
+```
+
+
