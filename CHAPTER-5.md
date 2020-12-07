@@ -770,3 +770,43 @@ class Question {
   }
 }
 ```
+
+# Inheritance
+
+- When the class is able to inherit the properties and methods from their parents.
+- In other words, Inheritance is a mechanism in which one class acquires the property of another class.
+
+```ruby
+void main(){
+  
+  Monkey mMonkey = Monkey();
+  
+  print(mMonkey.height);
+  
+  mMonkey.talk('Hello World');
+  
+  mMonkey.monkeWeight();
+ 
+}
+
+class Human{
+  
+  double height = 10.0;
+  int age = 60;
+  
+  void talk(String mStringText){
+    print(mStringText);
+  }
+}
+
+class Monkey extends Human{
+  
+  double weight = 150.0;
+  
+  void monkeWeight(){
+     print('Weight$weight');
+  }
+  
+  
+}
+```
