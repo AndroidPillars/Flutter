@@ -873,3 +873,54 @@ class SelfDrivingCar extends Car{
   }
 }
 ```
+
+# Constructor
+
+- The Constructor is the part of the code that actually turns this blueprint  in to actual object.
+
+```ruby
+void main(){
+  
+ Human mKite = Human(height: 15, weight: 30.5);
+ print(mKite.height);
+  
+ Human mJenny = Human(height: 25, weight: 13.5);
+ print(mJenny.height);
+ 
+}
+
+class Human{
+  
+  double height;
+  double weight;
+  
+  Human({double height,double weight}){
+  this.height = height;
+  this.weight = weight;
+  }
+}
+```
+
+__Constructor[Dart]__
+
+```ruby
+void main(){
+  
+ Human mKite = Human(height: 15, weight: 30.5);
+ print(mKite.height);
+  
+ Human mJenny = Human(height: 25, weight: 13.5);
+ print(mJenny.height);
+ 
+}
+
+class Human{
+  
+  double height;
+  double weight;
+  
+  Human({this.height,this.weight});
+  
+}
+```
+
