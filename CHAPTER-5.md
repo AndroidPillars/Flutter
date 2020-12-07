@@ -321,5 +321,55 @@ __Creating an Object from the Class__
 ```ruby
 Car myCar = Car();
 ```
+- where int Car = 5 is the type, myCar is the object and Car() is the new version of that class. 
 
+__Example__
+
+```ruby
+void main(){
+  
+  Human mHuman = Human();
+  
+  print(mHuman.height);
+  
+  mHuman.height = 2.0;
+  
+  print(mHuman.height);
+  
+}
+
+class Human{
+  
+  double height = 1.0;
+  int age = 60;
+}
+```
+
+__Using constructor__
+
+```ruby
+void main(){
+  
+  Human mHuman = Human(mHeight: 10.0);
+  
+  print(mHuman.height);
+  
+  mHuman.talk('Hello World');
+ 
+}
+
+class Human{
+  
+  double height;
+  int age = 60;
+  
+  Human({double mHeight}){
+    height = mHeight;
+  }
+  
+  void talk(String mStringText){
+    print(mStringText);
+  }
+}
+```
 
