@@ -810,3 +810,66 @@ class Monkey extends Human{
   
 }
 ```
+
+# Polymorphism
+
+- Polymorphism allows us to perform a single action in different ways. 
+
+```ruby
+void main(){
+  
+  ElectricCar myElectricCar = ElectricCar();
+  myElectricCar.drive();
+  myElectricCar.recharge();
+  
+  LevitatingCar myDrivingCar = LevitatingCar();
+  myDrivingCar.drive();
+  
+  SelfDrivingCar mySelfDrivingCar = SelfDrivingCar('HangOver');
+  mySelfDrivingCar.drive();
+  
+ 
+}
+
+class Car{
+  
+  int  numberOfSeats = 5;
+  
+  void drive(){
+    print('Wheel Turn.');
+  }
+}
+
+class ElectricCar extends Car{
+  
+  int batteryLevel = 100;
+  
+  void recharge(){
+     batteryLevel = 100;
+  }
+    
+}
+
+class LevitatingCar extends Car{
+  
+  @override
+  void drive(){
+    print('glide forwards');
+  }
+}
+
+class SelfDrivingCar extends Car{
+  
+  String mDestination;
+  
+  SelfDrivingCar(String mUserDestination){
+    mDestination = mUserDestination;
+  }
+  
+  @override
+  void drive(){
+    super.drive();
+    print('Sterring towards $mDestination');
+  }
+}
+```
