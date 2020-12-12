@@ -396,12 +396,12 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+__Read the Documentation in__ 
+- https://api.flutter.dev/flutter/widgets/Expanded-class.html
+
 # Working with Expanded
 
 - A Widget that expands a child of a Row, Column, or Flex   
-
-__Read the Documentation in__ 
-- https://api.flutter.dev/flutter/widgets/Expanded-class.html
 
 ```ruby
 import 'package:flutter/material.dart';
