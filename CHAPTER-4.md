@@ -139,10 +139,10 @@ int multiply(int n1, int n2) => n1 * n2;
 ```ruby
 var myName = 'Android';
 ```
-__where,__ 
-Var is Keyword that says, I am creating a Variable.    
-myName is a reference name of the Variable.    
-'Android' is the name assigned to that Variable.
+__where,__   
+- Var is Keyword that says, I am creating a Variable.    
+- myName is a reference name of the Variable.    
+- 'Android' is the name assigned to that Variable.
 
 # Data Types
 
