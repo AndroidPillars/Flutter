@@ -399,6 +399,7 @@ class MyApp extends StatelessWidget {
 # Working with Expanded
 
 - A Widget that expands a child of a Row, Column, or Flex   
+
 __Read the Documentation in__ 
 - https://api.flutter.dev/flutter/widgets/Expanded-class.html
 
