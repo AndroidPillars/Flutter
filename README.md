@@ -53,6 +53,10 @@ __CHAPTER-4__
 | 2 | [Variables[Dart]](CHAPTER-4.md#variablesdart) |
 | 3 | [Data Types](CHAPTER-4.md#data-types) |
 | 4 | [Stateful vs Stateless Widget](CHAPTER-4.md#stateful-vs-stateless-widget) |
-| 5 | [Working with Expanded](CHAPTER-3.md#working-with-expanded) |
+| 5 | [Randomising the Dice](CHAPTER-4.md#randomising-the-dice) |
+| 6 | [Flutter & Dart Packages](CHAPTER-4.md#flutter--dart-packages) |
+| 7 | [Playing Sound using Dart Packages](CHAPTER-4.md#playing-sound-using-dart-packages) |
+| 8 | [Playing Multiple Sound using Dart Packages](CHAPTER-4.md#playing-multiple-sound-using-dart-packages) |
+| 9 | [Code Refractor](CHAPTER-4.md#code-refractor) |
     
 
