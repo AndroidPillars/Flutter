@@ -19,7 +19,7 @@ void main() => runApp(
 # Scaffold Widet
 
 - A Scaffold Widget is used under MaterialApp, it gives you many basic functionalities like AppBar, BottomNavigationBar, Drawer, FloatingActionButton etc.
-- __In Other terms,__ A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. 
+- In __Other terms,__ A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. 
 - It provides APIs for showing drawers, snack bars and bottom sheets. 
 
 ```ruby
