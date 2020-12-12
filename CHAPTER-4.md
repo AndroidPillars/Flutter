@@ -1,7 +1,8 @@
 # Functions[Dart]
 
 - A function is a block of organized, reusable code that is used to perform a single, related action.
-- Creating the Function
+
+__Creating the Function__
 
 ```ruby
 void functionName(){
@@ -9,12 +10,13 @@ void functionName(){
 }
 ```
 
-- Calling the Function
+__Calling the Function__
 
 ```ruby
 functionName();
 ```
-- Named Function
+
+__Named Function__
 
 ```ruby
 void functionName(){
@@ -22,7 +24,7 @@ void functionName(){
 }
 ```
 
-- Anonymous Function
+__Anonymous Function__
 
 ```ruby
 (){
@@ -30,7 +32,7 @@ void functionName(){
 }
 ```
 
-- Example in Dart using Anonymous Function,
+__Example in Dart using Anonymous Function__
 
 ```ruby
 onPressed: (){
@@ -38,7 +40,7 @@ onPressed: (){
 }
 ```
 
-- Passing Arguements and Inputs in Function
+__Passing Arguments and Inputs in Function__
 
 ```ruby
 void functionName(int mNumbers){
@@ -62,7 +64,7 @@ void getTotalValues({int mNumbers}){
 }
 ```
 
-- Return Function,
+__Return Function__
 
 ```ruby
 void main() {
