@@ -130,6 +130,7 @@ __For IOS,__
 
 # Single-child layout widgets 
 
+- The single child layout widget is a type of widget, which can have only one child widget inside the parent layout widget.
 - Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
 LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
 
@@ -170,6 +171,7 @@ class MyApp extends StatelessWidget {
 
 # Multi-child layout widgets
 
+- The multiple child widgets are a type of widget, which contains more than one child widget, and the layout of these widgets are unique. 
 - Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
 
 ```ruby
