@@ -116,5 +116,6 @@ the option to remove widget.
 - https://icons8.com/ [Image Picker]
 - https://www.vecteezy.com/ [Image Picker]
 - https://www.canva.com/ [Image Picker]
-- https://www.materialpalette.com/
+- https://www.materialpalette.com/ [Color Picker]
+- https://www.colorzilla.com/ [Color Picker]
 
