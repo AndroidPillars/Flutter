@@ -134,7 +134,6 @@ __For IOS,__
 - Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
 LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
 
-Example:
 ```ruby
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
