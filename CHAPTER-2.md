@@ -88,6 +88,7 @@ __For Android,__
 - In Android Mobile -> Go to Settings -> About -> Build number -> Tap multiple times until you get the message 'Developer mode is Enabled'(or) It may vary depending on the versions of the Mobile OS. 
 - In Some Versions of Android -> Settings -> About Phone -> Versions -> Tap multiple times to enable developer option.
 - In settings you will get the menu Developer Options -> Enable Developer Options and USB debugging.
+- For Further reference, check https://developer.android.com/studio/run/device
 
 __For IOS,__  
 - For IOS, you need an Apple ID and Xcode.
