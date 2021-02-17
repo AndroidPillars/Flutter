@@ -1,13 +1,15 @@
 # Flutter
 
+## What is Flutter?
+
 - A Flutter is simply a toolkit that makes it easy to developers to design a beautiful interfaces, also screen sizes and devices
-which comes with a whole bunch of pre-build widgets that makes it easy to layout our App.
+  which comes with a whole bunch of pre-build widgets that makes it easy to layout our App.
 - It adopts the screen design widgets according to their platform in a Native way.(i.e)AlertDialog differs between android and IOS.
 - Deploy that code to different devices and platform with out changing that code.
 - We can build Application in Android, IOS and even Web and Desktop with single code base using Dart.
 - For Adopting all screen ratio to various platform, Flutter introduced lot of core concepts from web.(i.e)eg. using Row, Column, Stack, Padding and Center.
 
-# Why Flutter
+## Why Flutter
 
 - It is a single code base.
 - Dart -> It is a powerful language that is quite easy to work and is very similar to Oops. So we can learn easily.
@@ -16,7 +18,7 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - Hot Reload -> Instant run with in a Second.
 - It's a Open source.
 
-# The Anatomy of Flutter App
+## The Anatomy of Flutter App
 
 - Scaffold -> AppBar and Container ->The Container is having Column -> Row and Text -> In Row we are adding Text and Icon.
 - Simply a widget tree that consists of whole number of widgets that are nested with each other.
@@ -28,7 +30,7 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
  <img src="https://user-images.githubusercontent.com/48873155/74207299-08d96080-4ca5-11ea-8f8f-120b987a3542.png"/>
 </p>
 
-# Development Tools
+## Development Tools
 
 - Android Studio and VS Code.
 - Both are enough capable for developing Flutter.
@@ -39,7 +41,7 @@ which comes with a whole bunch of pre-build widgets that makes it easy to layout
 - Git -> https://git-scm.com
 - Visual Studio Code -> https://code.visualstudio.com/
 
-# Mac Setup
+## Mac Setup
 
 - Download the Flutter SDK in https://flutter.dev/docs/get-started/install
 - Extract the downloaded zip Folder.
@@ -62,7 +64,7 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - It shows pop up as Plugin Dependencies Detected -> Select Yes to install Dart.
 - Now, Restart Android Studio.
 
-# Windows Setup
+## Windows Setup
 
 - Download the Flutter SDK in https://flutter.dev/docs/get-started/install
 - Download and install the Git if already not installed in your system.
@@ -73,13 +75,13 @@ export PATH="$PATH:/Users/gowthamr/Developer/flutter/bin"
 - It shows pop up as Plugin Dependencies Detected -> Select Yes to install Dart.
 - Now, Restart Android Studio.
 
-# Getting Started
+## Getting Started
 
 - Open Android Studio -> File -> New Flutter Project -> Project name as 'flutter_demo'
 - Check the Flutter SDK path
 - Company domain name as example.com -> Finish
 
-# Points to get Remember
+## Points to get Remember
 
 - For Checking Flutter Version
 ```ruby
@@ -102,7 +104,7 @@ the option to remove widget.
 - In Android Studio -> VCS -> Local History -> Show History where we can revert to the previous changes.
 - Name Suggestions in Android Studio -> Right Click -> Spelling -> Save 'any name' to project-level dictionary.
 
-# Documentation References
+## Documentation References
 
 - https://flutter.dev/docs
 - https://material.io/
