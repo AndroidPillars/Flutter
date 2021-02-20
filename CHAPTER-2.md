@@ -1,4 +1,4 @@
-# MaterialApp Class
+## MaterialApp Class
 
 - MaterialApp is a predefined class in a flutter. 
 - It is likely the main or core component of flutter. 
@@ -16,11 +16,13 @@ void main() => runApp(
     );
 ```  
 
-# Scaffold Widet
+## Scaffold Widet
 
 - A Scaffold Widget is used under MaterialApp, it gives you many basic functionalities like AppBar, BottomNavigationBar, Drawer, FloatingActionButton etc.
 - In __Other terms,__ A Scaffold Widget provides a framework which implements the basic material design visual layout structure of the flutter app. 
 - It provides APIs for showing drawers, snack bars and bottom sheets. 
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -45,7 +47,7 @@ void main() => runApp(
     );
 ```
 
-# Working with Assets
+## Working with Assets
 
 - To Load images from app -> Project Name -> Right Click -> New -> Directory -> images
 - Put some .png format images in that folder.
@@ -91,7 +93,8 @@ flutter:
     - images/
 
 ```
-# Change Launcher Icon
+
+## Change Launcher Icon
 
 - Select Android Folder -> Select res -> Right Click -> Reveal in Finder (For mac) and show in Explorer (For Windows)
 - Replace the mipmap folders -> Downloaded from  https://appicon.co/
@@ -100,7 +103,7 @@ flutter:
 - In Android for Loading Launcher icons in different styles -> Select Android Folder ->  Select res -> 
 Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> Next -> Finish
 
-# Running App on a Physical Device
+## Running App on a Physical Device
 
 __For Android,__
 - In Android Mobile -> Go to Settings -> About -> Build number -> Tap multiple times until you get the message 'Developer mode is Enabled'(or) It may vary depending on the versions of the Mobile OS. 
