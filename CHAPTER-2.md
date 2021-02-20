@@ -52,6 +52,8 @@ void main() => runApp(
 - Open pubspec.yaml -> assets -> - images/diamond.png (or) - images/ (To Load All images with out giving their name)
 - Select Packages get 
 
+__main.dart__
+
 ```ruby
 import 'package:flutter/material.dart';
 
@@ -72,6 +74,22 @@ void main() => runApp(
         ),
       ),
     );
+```
+
+__pubspec.yaml__
+
+```ruby
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+
 ```
 # Change Launcher Icon
 
