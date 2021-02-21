@@ -134,7 +134,8 @@ int multiply(int n1, int n2) => n1 * n2;
 
 ## Variables[Dart]
 
-- Variable is “a named space in the memory” that stores values. In other words, it acts a container for values in a program.
+- Variable is “a named space in the memory” that stores values.
+- Simply in other words, it acts a container for values in a program.
 
 ```ruby
 var myName = 'Android';
