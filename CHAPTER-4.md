@@ -202,7 +202,7 @@ __Stateless Widget:__
 - Stateless Widgets do not have a state, they will be rendered once and will not update themselves, but will only be updated when external data changes.
 - For Example: Text, Icon, RaisedButton are Stateless Widgets.
 
-__Stateless Widget:__
+__Stateful Widget:__
 
 - A widget that has a mutable state.
 - Stateful Widgets are dynamic widgets.
