@@ -1,4 +1,4 @@
-# Functions[Dart]
+## Functions[Dart]
 
 - A function is a block of organized, reusable code that is used to perform a single, related action.
 
@@ -132,19 +132,21 @@ int add({int n1, int n2}) => n1 + n2;
 int multiply(int n1, int n2) => n1 * n2;
 ```
 
-# Variables[Dart]
+## Variables[Dart]
 
 - Variable is “a named space in the memory” that stores values. In other words, it acts a container for values in a program.
 
 ```ruby
 var myName = 'Android';
 ```
-__where,__   
+
+__where,__ 
+
 - Var is Keyword that says, I am creating a Variable.    
 - myName is a reference name of the Variable.    
 - 'Android' is the name assigned to that Variable.
 
-# Data Types
+## Data Types
 
 - Dart -> Statically Typed Language.
 ```ruby
@@ -189,7 +191,7 @@ console.log(a);
 - In the the above example, var a is having different data types but being able to change in JavaScript. 
 - It is recommended to use sring, int, decimal instead of using var, dynamic to avoid the datatype errors.
 
-# Stateful vs Stateless Widget
+## Stateful vs Stateless Widget
 
 __Stateless Widget:__
 
@@ -206,6 +208,8 @@ __Stateless Widget:__
 - They can be updated during runtime based on user action or data change.
 - Stateful Widgets have an internal state and can re-render if the input data changes or if the Widget’s state changes.
 - For Example: Checkbox, Radio Button, Slider are Stateful Widgets.
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -265,7 +269,7 @@ class _State extends State<StatefulWidget> {
 }
 ```
 
-# Randomising the Dice
+## Randomising the Dice
 
 ```ruby
 import 'dart:math';
