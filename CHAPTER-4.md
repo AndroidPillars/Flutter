@@ -272,6 +272,10 @@ class _State extends State<StatefulWidget> {
 
 ## Randomising the Dice
 
+__Read the Documentation in__ 
+
+- https://api.dart.dev/stable/2.10.5/dart-math/Random-class.html
+
 __main.dart__
 
 ```ruby
