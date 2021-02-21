@@ -31,7 +31,7 @@ __CHAPTER-2__
 | 9 | [Layout widgets](CHAPTER-2.md#layout-widgets) |
 | 10 | [Single-child layout widgets](CHAPTER-2.md#single-child-layout-widgets) |
 | 11 | [Multi-child layout widgets](CHAPTER-2.md#multi-child-layout-widgets) |
-| 12 | [MaterialApp Class](CHAPTER-2.md#reference-links) |
+| 12 | [Reference Links](CHAPTER-2.md#reference-links) |
 
     
 __CHAPTER-3__  
