@@ -1,4 +1,4 @@
-# Working with Cutom Fonts
+## Working with Cutom Fonts
 
 - To Load Custom Fonts from app -> Project Name -> Right Click -> New -> Directory -> fonts
 - Download the font you need in https://fonts.google.com/
@@ -92,7 +92,7 @@ flutter:
 }
 ```
 
-# Working with Material Icons
+## Working with Material Icons
 __Read the Documentation in__ 
 - https://api.flutter.dev/flutter/material/Icons-class.html
 - https://material.io/resources/icons/?style=baseline
@@ -195,7 +195,7 @@ class MyApp extends StatelessWidget {
 
 ```
 
-# Working with Card
+## Working with Card
 __Read the Documentation in__ 
 - https://api.flutter.dev/flutter/material/Card-class.html 
 
@@ -300,7 +300,7 @@ class MyApp extends StatelessWidget {
 
 ```
 
-# Working with ListTile, Column and Divider
+## Working with ListTile, Column and Divider
 __Read the Documentation in__ 
 - https://api.flutter.dev/flutter/material/ListTile-class.html
 - https://api.flutter.dev/flutter/widgets/Column-class.html
@@ -399,7 +399,7 @@ class MyApp extends StatelessWidget {
 __Read the Documentation in__ 
 - https://api.flutter.dev/flutter/widgets/Expanded-class.html
 
-# Working with Expanded
+## Working with Expanded
 
 - A Widget that expands a child of a Row, Column, or Flex   
 
