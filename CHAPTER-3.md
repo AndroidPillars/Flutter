@@ -311,10 +311,14 @@ class MyApp extends StatelessWidget {
 ```
 
 ## Working with ListTile, Column and Divider
+
 __Read the Documentation in__ 
+
 - https://api.flutter.dev/flutter/material/ListTile-class.html
 - https://api.flutter.dev/flutter/widgets/Column-class.html
 - https://api.flutter.dev/flutter/material/Divider-class.html
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -406,12 +410,15 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-__Read the Documentation in__ 
-- https://api.flutter.dev/flutter/widgets/Expanded-class.html
-
 ## Working with Expanded
 
-- A Widget that expands a child of a Row, Column, or Flex   
+- A Widget that expands a child of a Row, Column, or Flex.
+
+__Read the Documentation in__ 
+
+- https://api.flutter.dev/flutter/widgets/Expanded-class.html
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -467,10 +474,13 @@ class DicePage extends StatelessWidget {
 
 ```
 
-# Working with Buttons
+## Working with Buttons
 
 __Read the Documentation in__ 
+
 - https://flutter.dev/docs/development/ui/widgets/material#Buttons
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
