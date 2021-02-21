@@ -6,6 +6,8 @@
 - Open pubspec.yaml and refer the following documentation(i.e) https://flutter.dev/docs/cookbook/design/fonts#from-packages
 - Finally Select Packages get 
 
+__main.dart__
+
 ```ruby
 import 'package:flutter/material.dart';
 
@@ -53,7 +55,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-__In pubspec.yaml__
+__pubspec.yaml__
 
 ```ruby
 name: mi_card
@@ -93,10 +95,14 @@ flutter:
 ```
 
 ## Working with Material Icons
+
 __Read the Documentation in__ 
+
 - https://api.flutter.dev/flutter/material/Icons-class.html
 - https://material.io/resources/icons/?style=baseline
 - https://www.materialpalette.com/
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -196,8 +202,12 @@ class MyApp extends StatelessWidget {
 ```
 
 ## Working with Card
+
 __Read the Documentation in__ 
+
 - https://api.flutter.dev/flutter/material/Card-class.html 
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
