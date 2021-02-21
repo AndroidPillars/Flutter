@@ -126,7 +126,7 @@ __For IOS,__
 - For Further reference, check https://flutter.dev/docs/get-started/install/macos#set-up-the-ios-simulator
 
 
-# Import project from GitHub
+## Import project from GitHub
 
 - Copy the URL link from GitHub by selecting clone or download.
 - Open Android Studio -> check out project from version control -> Select Git. 
@@ -135,14 +135,14 @@ __For IOS,__
 - Now choose an existing Android studio project from the downloaded directory path.
 - Once the project gets imported in Android Studio -> select Get dependencies Option.
 
-# Hot Reload
+## Hot Reload
 
 - Hot reload feature quickly compile the newly added code in our file and sent the code to Dart Virtual Machine.
 - Once done updating the Code Dart Virtual Machine update the app UI with widgets.
 - Hot Reload takes less time then Hot restart.
 - There is also a draw back in Hot Reload, If you are using States in your application then Hot Reload preservers the States so they will not update on Hot Reload our   set to their default values. 
 
-# Hot Restart
+## Hot Restart
 
 - Hot restart is much different than hot reload.
 - In Hot restart it destroys the preserves State value and set them to their default.
@@ -150,13 +150,15 @@ __For IOS,__
 - The app widget tree is completely rebuilt with new typed code. 
 - Hot Restart takes much higher time than Hot reload.
 
-# Layout widgets
+## Layout widgets
 
-# Single-child layout widgets 
+## Single-child layout widgets 
 
 - The single child layout widget is a type of widget, which can have only one child widget inside the parent layout widget.
 - Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
 LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/cupertino.dart';
@@ -192,10 +194,12 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-# Multi-child layout widgets
+## Multi-child layout widgets
 
 - The multiple child widgets are a type of widget, which contains more than one child widget, and the layout of these widgets are unique. 
 - Column, CustomMultiChildLayout, Flow, GridView, IndexedStack, LayoutBuilder, ListBody, ListView, Row, Stack, Table and Wrap
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -248,7 +252,9 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-__For more please refer,__
+
+## Reference Links
+
 - https://flutter.dev/docs/development/ui/widgets/layout
 - https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
 - https://medium.com/@dev.n/the-complete-flutter-series-article-2-basic-widgets-and-layout-in-flutter-92a4fbd4a3e1
