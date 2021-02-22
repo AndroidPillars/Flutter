@@ -354,6 +354,8 @@ class _State extends State<StatefulWidget> {
 - Choose the Installing Tab and copy the dependencies and put that in pubspec.yaml File.
 - Finally copy the import line and paste it in your Application.
 
+__main.dart__
+
 ```ruby
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
@@ -374,7 +376,7 @@ class XylophoneApp extends StatelessWidget {
 }
 
 ```
-__In pubspec.yaml__
+__pubspec.yaml__
 
 ```ruby
 dependencies:
@@ -385,7 +387,9 @@ dependencies:
   english_words: ^3.1.5
 ```
 
-# Playing Sound using Dart Packages
+## Playing Sound using Dart Packages
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -413,7 +417,7 @@ class XylophoneApp extends StatelessWidget {
   }
 }
 ```
-__In pubspec.yaml__
+__pubspec.yaml__
 
 ```ruby
 dependencies:
@@ -425,6 +429,8 @@ dependencies:
 ```
 
 # Playing Multiple Sound using Dart Packages
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -510,7 +516,7 @@ class XylophoneApp extends StatelessWidget {
   }
 }
 ```
-__In pubspec.yaml__
+__pubspec.yaml__
 
 ```ruby
 dependencies:
@@ -521,7 +527,9 @@ dependencies:
   audioplayers: ^0.17.0
 ```
 
-# Code Refractor
+## Code Refractor
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -569,7 +577,7 @@ class XylophoneApp extends StatelessWidget {
   }
 }
 ```
-__In pubspec.yaml__
+__pubspec.yaml__
 
 ```ruby
 dependencies:
