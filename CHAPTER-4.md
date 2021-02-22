@@ -529,6 +529,8 @@ dependencies:
 
 ## Code Refractor
 
+- Improving or updating the code without changing the software's functionality or external behavior of the application is known as code refactoring.
+
 __main.dart__
 
 ```ruby
