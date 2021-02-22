@@ -3,7 +3,7 @@
 - Dart represents arrays in the form of List objects. 
 - List is simply an ordered group of objects.
 
-__Example 1[Getting Name]__
+__Example 1 [Getting Name]__
 
 ```ruby
 void main() {
@@ -20,7 +20,7 @@ void main() {
 }
 ```
 
-__Example 2[Getting Index Value]__
+__Example 2 [Getting Index Value]__
 
 ```ruby
 void main() {
@@ -33,6 +33,9 @@ void main() {
   ];
   
   print(myList.indexOf('List1'));
+  
+  myList.add('List5'); // For adding an item
+  myList.insert(1,'List') // For aading the item in specific position
     
 }
 ```
