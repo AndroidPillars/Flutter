@@ -83,7 +83,7 @@ int getTotalValues(){
 }
 ```
 
-__Example__
+__Example using return Function__
 
 ```ruby
 void main() {
@@ -126,10 +126,10 @@ void main() {
     
 }
 
-int add({int n1, int n2}) => n1 + n2;
+int add({int n1, int n2}) => n1 + n2; // Arrow Function
   
 
-int multiply(int n1, int n2) => n1 * n2;
+int multiply(int n1, int n2) => n1 * n2; // Arrow Function
 ```
 
 ## Variables[Dart]
