@@ -1,9 +1,10 @@
 # List[Dart]
 
-- The ListView is a perfect standard for displaying lists that contains only a few items. 
-- ListView also includes ListTitle widget, which gives more properties for the visual structure to a list of data.
+- Dart represents arrays in the form of List objects. 
+- List is simply an ordered group of objects.
 
 __Example 1[Getting Name]__
+
 ```ruby
 void main() {
   
@@ -20,6 +21,7 @@ void main() {
 ```
 
 __Example 2[Getting Index Value]__
+
 ```ruby
 void main() {
   
