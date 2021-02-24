@@ -822,6 +822,11 @@ class Monkey extends Human{
 # Polymorphism
 
 - Polymorphism allows us to perform a single action in different ways. 
+- The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object. 
+- In Java, we use method overloading and method overriding to achieve polymorphism.
+- Two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
+- Static Polymorphism also known as compile time polymorphism.
+- Dynamic Polymorphism also known as runtime polymorphism
 
 ```ruby
 void main(){
@@ -884,7 +889,13 @@ class SelfDrivingCar extends Car{
 
 # Constructor
 
-- The Constructor is the part of the code that actually turns this blueprint  in to actual object.
+- Constructor is a block of code that initializes the newly created object.
+- Constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type.
+- It is called when an instance of the class is created. 
+- At the time of calling constructor, memory for the object is allocated in the memory.
+- It calls a default constructor if there is no constructor available in the class.
+
+__Example 1__
 
 ```ruby
 void main(){
@@ -909,7 +920,7 @@ class Human{
 }
 ```
 
-__Constructor[Dart]__
+__Example 2__
 
 ```ruby
 void main(){
