@@ -20,11 +20,22 @@ class BMICalculator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // theme: ThemeData.dark() // Setting custom Theme
-      theme: ThemeData(
+      // TODO Setting Default Theme
+      // theme: ThemeData.dark()
+      // TODO copyWith automatically selects accent and textTheme according to the dark theme
+      theme: ThemeData.dark().copyWith(
         primaryColor: Color(0xFF0A0E21), // Actionbar color
-        accentColor: Colors.purple, // Floating Button color
+        scaffoldBackgroundColor: Color(0xFF0A0E21), //body color
       ),
+      // TODO alternative way for setting Theme Data
+      // ThemeData(
+      //     primaryColor: Color(0xFF0A0E21), // Actionbar color
+      //     scaffoldBackgroundColor: Color(0xFF0A0E21), //body color
+      //     accentColor: Colors.purple,
+      //     textTheme: TextTheme(
+      //       bodyText1: TextStyle(color: Color(0xFF0A0E21)),
+      //     ) // Floating Button color
+      // ),
       home: InputPage(),
     );
   }
