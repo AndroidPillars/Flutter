@@ -316,10 +316,11 @@ class Question {
 
 # Classes and Objects
 
-- A class is simply a blueprint and is used to create all of the things that we're going to be showing in our app and the user is going to be interacting with. 
-- So essentially, everything that makes up our app is going to be created using a blueprint that's called a class.
+- A template (blueprint) for creating objects (the real thing) that we're going to showing in our app.
 - A class has two important things (i.e.) Properties and Methods.
 - Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
+- It is a basic unit of Object Oriented Programming and represents the real life entities.
+- For example, we can take a Car -> Car is an object.
 
 __Creating the Class__
 
@@ -396,10 +397,9 @@ class Human{
 
 # Abstraction
 
-- OOps - Object Oriented Programming Language.
-- It means we are working with objects -> Abstraction, Encapsulation, Inheritance and Polymorphism.
-- Split up the functionality in to different Component.
-- Its main goal is to handle complexity by hiding unnecessary details from the user. 
+- Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+- It can have abstract and non-abstract methods (method with the body).
+- In other words, Split up the functionality in to different Component.
 
 __main.dart__
 
@@ -584,7 +584,12 @@ class Question {
 
 # Encapsulation
 
-- It describes the idea of bundling data and methods that work on that data within one unit, e.g., a class in Java
+- Binding (or wrapping) code and data together into a single unit are known as encapsulation..
+- The whole idea behind encapsulation is to hide the implementation details from users.
+- If a data member is private it means it can only be accessed within the same class.
+- No outside class can access private data member (variable) of other class.
+- We can use setter and getter methods to set and get the data in it.
+- By providing only a setter or getter method, you can make the class read-only or write-only.
 
 __main.dart__
 
@@ -781,8 +786,11 @@ class Question {
 
 # Inheritance
 
-- When the class is able to inherit the properties and methods from their parents.
-- In other words, Inheritance is a mechanism in which one class acquires the property of another class.
+- Inheritance is the process by which objects of one class acquire the properties & methods of another class. 
+- It provides code reusability. 
+- It is used to achieve runtime polymorphism.
+
+__Example__
 
 ```ruby
 void main(){
@@ -826,7 +834,21 @@ class Monkey extends Human{
 - In Java, we use method overloading and method overriding to achieve polymorphism.
 - Two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism.
 - Static Polymorphism also known as compile time polymorphism.
-- Dynamic Polymorphism also known as runtime polymorphism
+- Dynamic Polymorphism also known as runtime polymorphism.
+
+__Compiletime Polymorphism (or Static polymorphism)__
+
+- Static Polymorphism also known as compile time polymorphism.
+- Static Polymorphism that is resolved during compiler time is known as static polymorphism. 
+- Method overloading is an example of compile time polymorphism.
+
+__Runtime Polymorphism (or Dynamic polymorphism)__
+
+- It is also known as Dynamic Method Dispatch. 
+- Dynamic polymorphism is a process in which a call to an overridden method is resolved at runtime, thats why it is called runtime polymorphism.
+- Method overriding is an example of runtime polymorphism.
+
+__Example__
 
 ```ruby
 void main(){
