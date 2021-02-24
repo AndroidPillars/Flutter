@@ -69,7 +69,12 @@ class _InputPageState extends State<InputPage> {
 }
 ```
 
-## Refactoring Flutter Widgets
+## Creating Reusable Flutter Widgets
+
+- It’s always good practice to use Reusable Widgets to maintain consistency throughout the app.
+- When we are dealing with multiple projects, we don’t like to write to each code multiple times.
+- It will create duplication and in the end, if any issue comes we end up with a mess.
+- So, the best way is to create a base widget and use it everywhere.
 
 __main.dart__
 
