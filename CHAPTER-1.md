@@ -110,6 +110,7 @@ the option to remove widget.
 - https://material.io/ [Color Picker]
 - https://dartpad.dartlang.org/ [Dartpad]
 - https://github.com/londonappbrewery/Flutter-Course-Resources [Course]
+- https://flutter.dev/docs/cookbook [Widgets Documentation]
 
 # Tools References
 
