@@ -40,7 +40,7 @@ void main() {
 }
 ```
 
-# List[Flutter]
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -167,7 +167,88 @@ class _QuizPageState extends State<QuizPage> {
 }
 ```
 
-# Using If/Else
+# Classes and Objects
+
+- A template (blueprint) for creating objects (the real thing) that we're going to showing in our app.
+- A class has two important things (i.e.) Properties and Methods.
+- Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
+- It is a basic unit of Object Oriented Programming and represents the real life entities.
+- For example, we can take a Car -> Car is an object.
+
+__Creating the Class__
+
+```ruby
+class car {
+  
+  int numberOfDoors = 5;
+  
+  void drive(){
+    print('wheels start turning');
+  }
+    
+}
+```
+
+- where int numberOfDoors = 5 is the varaible(i.e.) Properties and void drive() is the function(i.e.) Methods
+
+__Creating an Object from the Class__
+
+```ruby
+Car myCar = Car();
+```
+- where int Car = 5 is the type, myCar is the object and Car() is the new version of that class. 
+
+__Example__
+
+```ruby
+void main(){
+  
+  Human mHuman = Human();
+  
+  print(mHuman.height);
+  
+  mHuman.height = 2.0;
+  
+  print(mHuman.height);
+  
+}
+
+class Human{
+  
+  double height = 1.0;
+  int age = 60;
+}
+```
+
+__Using constructor__
+
+```ruby
+void main(){
+  
+  Human mHuman = Human(mHeight: 10.0);
+  
+  print(mHuman.height);
+  
+  mHuman.talk('Hello World');
+ 
+}
+
+class Human{
+  
+  double height;
+  int age = 60;
+  
+  Human({double mHeight}){
+    height = mHeight;
+  }
+  
+  void talk(String mStringText){
+    print(mStringText);
+  }
+}
+```
+
+__main.dart__
 
 ```ruby
 import 'package:flutter/material.dart';
@@ -310,87 +391,6 @@ class Question {
   Question({String mQ, bool mA}) {
     mQuestionText = mQ;
     mAnswerValue = mA;
-  }
-}
-```
-
-# Classes and Objects
-
-- A template (blueprint) for creating objects (the real thing) that we're going to showing in our app.
-- A class has two important things (i.e.) Properties and Methods.
-- Example: If we take a car color and numberOfSeats is properties and drive(), break() is Methods.
-- It is a basic unit of Object Oriented Programming and represents the real life entities.
-- For example, we can take a Car -> Car is an object.
-
-__Creating the Class__
-
-```ruby
-class car {
-  
-  int numberOfDoors = 5;
-  
-  void drive(){
-    print('wheels start turning');
-  }
-    
-}
-```
-
-- where int numberOfDoors = 5 is the varaible(i.e.) Properties and void drive() is the function(i.e.) Methods
-
-__Creating an Object from the Class__
-
-```ruby
-Car myCar = Car();
-```
-- where int Car = 5 is the type, myCar is the object and Car() is the new version of that class. 
-
-__Example__
-
-```ruby
-void main(){
-  
-  Human mHuman = Human();
-  
-  print(mHuman.height);
-  
-  mHuman.height = 2.0;
-  
-  print(mHuman.height);
-  
-}
-
-class Human{
-  
-  double height = 1.0;
-  int age = 60;
-}
-```
-
-__Using constructor__
-
-```ruby
-void main(){
-  
-  Human mHuman = Human(mHeight: 10.0);
-  
-  print(mHuman.height);
-  
-  mHuman.talk('Hello World');
- 
-}
-
-class Human{
-  
-  double height;
-  int age = 60;
-  
-  Human({double mHeight}){
-    height = mHeight;
-  }
-  
-  void talk(String mStringText){
-    print(mStringText);
   }
 }
 ```
