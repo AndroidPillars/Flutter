@@ -174,3 +174,109 @@ class ReusableCard extends StatelessWidget {
   }
 }
 ```
+
+## Final vs Const
+
+- If you never intend to change a variable then we have to declare using the keyword final or const.
+- The final variable can be set only once.
+- The const variable is a compile-time constant.(Const variables are implicitly final.) 
+
+__Example__
+
+```ruby
+void main() {
+  const int myCount = 3;
+  final  mDate = DateTime.now();
+  
+  print(myCount);
+  print(mDate);
+}
+```
+
+__input_page.dart__
+
+```ruby
+import 'package:flutter/material.dart';
+
+const bottomContainerHeight = 80.0;
+const activeCardColor = Color(0xFF1D1E33);
+const bottomContainerColor = Color(0xFFEB1555);
+
+class InputPage extends StatefulWidget {
+  @override
+  _InputPageState createState() => _InputPageState();
+}
+
+class _InputPageState extends State<InputPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('BMI CALCULATOR'),
+        ),
+        body: Column(
+          children: <Widget>[
+            Expanded(
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: ReusableCard(
+                      colour: activeCardColor,
+                    ),
+                  ),
+                  Expanded(
+                    child: ReusableCard(
+                      colour: activeCardColor,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Expanded(
+              child: ReusableCard(
+                colour: activeCardColor,
+              ),
+            ),
+            Expanded(
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: ReusableCard(
+                      colour: activeCardColor,
+                    ),
+                  ),
+                  Expanded(
+                    child: ReusableCard(
+                      colour: activeCardColor,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              color: bottomContainerColor,
+              margin: EdgeInsets.only(top: 10.0),
+              width: double.infinity,
+              height: bottomContainerHeight,
+            )
+          ],
+        ));
+  }
+}
+
+class ReusableCard extends StatelessWidget {
+  ReusableCard({@required this.colour});
+
+  final Color colour;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.all(15.0),
+      decoration: BoxDecoration(
+          color: colour, borderRadius: BorderRadius.circular(10.0)),
+    );
+  }
+}
+
+```
