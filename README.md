@@ -65,13 +65,11 @@ __CHAPTER-5__
 | S.No | Content |
 | --------	 | ------------ |
 | 1 | [List[Dart]](CHAPTER-5.md#listdart) | 
-| 2 | [List[Flutter]](CHAPTER-5.md#listflutter) |
-| 3 | [Using If/Else](CHAPTER-5.md#using-ifelse) |
-| 4 | [Classes and Objects](CHAPTER-5.md#classes-and-objects) |
-| 5 | [Abstraction](CHAPTER-5.md#abstraction) |
-| 6 | [Encapsulation](CHAPTER-5.md#encapsulation) |
-| 7 | [Inheritance](CHAPTER-5.md#inheritance) |
-| 8 | [Polymorphism](CHAPTER-5.md#polymorphism) |
-| 9 | [Constructor](CHAPTER-5.md#constructor) |
+| 2 | [Classes and Objects](CHAPTER-5.md#classes-and-objects) |
+| 3 | [Abstraction](CHAPTER-5.md#abstraction) |
+| 4 | [Encapsulation](CHAPTER-5.md#encapsulation) |
+| 5 | [Inheritance](CHAPTER-5.md#inheritance) |
+| 6 | [Polymorphism](CHAPTER-5.md#polymorphism) |
+| 7 | [Constructor](CHAPTER-5.md#constructor) |
     
 
