@@ -1,4 +1,4 @@
-# List[Dart]
+## List[Dart]
 
 - Dart represents arrays in the form of List objects. 
 - List is simply an ordered group of objects.
@@ -167,7 +167,7 @@ class _QuizPageState extends State<QuizPage> {
 }
 ```
 
-# Classes and Objects
+## Classes and Objects
 
 - A template (blueprint) for creating objects (the real thing) that we're going to showing in our app.
 - A class has two important things (i.e.) Properties and Methods.
@@ -395,7 +395,7 @@ class Question {
 }
 ```
 
-# Abstraction
+## Abstraction
 
 - Abstraction is a process of hiding the implementation details and showing only functionality to the user.
 - It can have abstract and non-abstract methods (method with the body).
@@ -582,7 +582,7 @@ class Question {
 }
 ```
 
-# Encapsulation
+## Encapsulation
 
 - Binding (or wrapping) code and data together into a single unit are known as encapsulation..
 - The whole idea behind encapsulation is to hide the implementation details from users.
@@ -784,7 +784,7 @@ class Question {
 }
 ```
 
-# Inheritance
+## Inheritance
 
 - Inheritance is the process by which objects of one class acquire the properties & methods of another class. 
 - It provides code reusability. 
@@ -827,7 +827,7 @@ class Monkey extends Human{
 }
 ```
 
-# Polymorphism
+## Polymorphism
 
 - Polymorphism allows us to perform a single action in different ways. 
 - The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object. 
@@ -909,7 +909,7 @@ class SelfDrivingCar extends Car{
 }
 ```
 
-# Constructor
+## Constructor
 
 - Constructor is a block of code that initializes the newly created object.
 - Constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type.
