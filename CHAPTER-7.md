@@ -917,3 +917,34 @@ int multiply(int n1, int n2){
   return n1 * n2;
 }
 ```
+
+__Example 2__
+
+```ruby
+void main() {
+  
+Car myCar = Car (drive: slowDrive);
+  
+  print(myCar.drive);
+  
+  myCar.drive();
+  
+  myCar.drive = fastDrive;
+  myCar.drive();
+}
+
+class Car {
+
+  Car({this.drive});
+  
+  Function drive;
+}
+
+void slowDrive(){
+  print('Slow Driving');
+}
+
+void fastDrive(){
+  print('Fast Driving');
+}
+```
