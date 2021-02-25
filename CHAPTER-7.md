@@ -583,3 +583,38 @@ class _InputPageState extends State<InputPage> {
   }
 }
 ```
+
+## Enum
+
+- Enum or enumeration is used for defining named constant values and an enumerated type is declared using the enum keyword.
+
+```ruby
+enum EnumName { typeA, typeB, typeC }
+
+EnumName.typeA
+```
+
+__Example__
+
+```ruby
+void main() {
+  // Car car = Car(carStyle: 2);
+  
+  Car car = Car(carStyle: CarType.SUV);
+  print(car.carStyle);
+}
+
+class Car {
+ // int carStyle;
+  
+  CarType carStyle;
+  Car({this.carStyle});
+}
+
+enum CarType {
+  hatchback,
+  SUV,
+  convertible,
+  coupe,
+}
+```
