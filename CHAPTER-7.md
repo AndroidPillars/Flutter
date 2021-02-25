@@ -68,6 +68,16 @@ class _InputPageState extends State<InputPage> {
   }
 }
 ```
+__pubspec.yaml__
+
+```ruby
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+```
 
 ## Creating Reusable Flutter Widgets
 
