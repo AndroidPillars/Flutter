@@ -71,5 +71,22 @@ __CHAPTER-5__
 | 5 | [Inheritance](CHAPTER-5.md#inheritance) |
 | 6 | [Polymorphism](CHAPTER-5.md#polymorphism) |
 | 7 | [Constructor](CHAPTER-5.md#constructor) |
+
+__CHAPTER-6__  
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Flutter Themes](CHAPTER-6.md#futter-themes) | 
+| 2 | [Creating Reusable Flutter Widgets](CHAPTER-6.md#creating-reusable-flutter-widgets) |    
+| 3 | [Final vs Const](CHAPTER-6.md#final-vs-const) |  
+| 4 | [Creating Custom Flutter Widget](CHAPTER-6.md#creating-custom-flutter-widget) |  
+| 5 | [Gesture Detector Widget](CHAPTER-6.md#gesture-detector-widget) |
+| 6 | [Enum](CHAPTER-6.md#enum) |
+| 7 | [Ternary Operator](CHAPTER-6.md#ternary-operator) |   
+| 8 | [How to pass a function into a function](CHAPTER-6.md#how-to-pass-a-function-into-a-function) | 
+| 9 | [Customizing Slider widget with Themes](CHAPTER-6.md#customizing-slider-widget-with-themes) |   
+| 10 | [Composition](CHAPTER-6.md#composition) |
+| 11 | [Routes & Navigation](CHAPTER-6.md#routes--navigation) |
+| 12 | [Maps [Dart]](CHAPTER-6.md#maps-dart) |
     
 
