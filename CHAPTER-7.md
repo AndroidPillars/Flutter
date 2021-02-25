@@ -587,6 +587,7 @@ class _InputPageState extends State<InputPage> {
 ## Enum
 
 - Enum or enumeration is used for defining named constant values and an enumerated type is declared using the enum keyword.
+- For more refer, https://github.com/Gowtham-app-developer/Android-Interview-Questions/blob/main/Core%20Java.md#enum-in-java
 
 ```ruby
 enum EnumName { typeA, typeB, typeC }
