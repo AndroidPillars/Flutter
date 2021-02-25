@@ -742,3 +742,47 @@ class _InputPageState extends State<InputPage> {
   }
 }
 ```
+
+## Ternary Operator
+
+- A ternary operator evaluates the test condition and executes a block of code based on the result of the condition.
+
+__syntax__
+
+```ruby
+condition ? expression1 : expression2;
+```
+
+```ruby
+if(condition is true)
+{ Do this if true} else { Do this if false}
+```
+
+```ruby
+condition ? Do this if true : Do this if false
+```
+
+__Example__
+
+```ruby
+void main() {
+
+  bool jackIsAwesome = true;
+  
+  if(jackIsAwesome) {
+    print('True');
+  } else {
+    print('False');
+  }
+  
+  // using Ternary Operator
+  // jackIsAwesome == true ? print('True') : print('False');
+  jackIsAwesome ? print('True') : print('False');
+  
+  int  myAge = 10;
+  
+  bool eligibleForVote = myAge > 18 ? true : false;
+  
+  print(eligibleForVote);  
+}
+```
