@@ -1281,4 +1281,3 @@ class IconContent extends StatelessWidget {
   }
 }
 ```
-```
