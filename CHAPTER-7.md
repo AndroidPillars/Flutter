@@ -1281,3 +1281,10 @@ class IconContent extends StatelessWidget {
   }
 }
 ```
+
+## Composition
+
+- In flutter it faovors composition over inheritance for building widgets.
+- If we want to try and build things from scratch from the simplest widgets possible and that way flutter can keep our component's performance and keep our app fast.
+- Composing widgets -> If we take a basic widget such as a container, it's actually composed of smaller widgets.
+- By combining these simple widgets together, we can buils a more complex widgets.
