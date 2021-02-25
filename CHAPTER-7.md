@@ -1535,3 +1535,18 @@ class RoundIconButton extends StatelessWidget {
   }
 }
 ```
+
+## Routes & Navigation
+
+- Navigation and routing are some of the core concepts of all mobile application, which allows the user to move between different pages.
+- In Flutter, the screens and pages are known as routes, and these routes are just a widget. 
+- In Android, a route is similar to an Activity, whereas, in iOS, it is equivalent to a ViewController.
+- In any mobile app, navigating to different pages defines the workflow of the application, and the way to handle the navigation is known as routing. 
+- Flutter provides a basic routing class MaterialPageRoute and two methods Navigator.push() and Navigator.pop() that shows how to navigate between two routes.
+
+__Read the Documentation in__
+
+- https://flutter.dev/docs/cookbook/navigation/navigation-basics
+
+
+- 
