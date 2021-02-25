@@ -1821,3 +1821,42 @@ class ResultsPage extends StatelessWidget {
   }
 }
 ```
+
+## Maps [Dart]
+
+- Dart Map is an object that stores data in the form of a key-value pair. 
+- Each value is associated with its key, and it is used to access its corresponding value. 
+- Both keys and values can be any type. In Dart Map, each key must be unique, but the same value can occur multiple times. 
+
+__Syntax__
+
+```ruby
+Map<KeyType, ValueType> mapName {
+  Key: Value
+}
+
+mapName[Key]
+```
+
+__Example__
+
+```ruby
+Map<String, int> phoneBook = {
+  'Android': 99998888,
+  'Flutter': 99998888,
+  'IOS': 99998888,
+};
+
+main(){
+  print(phoneBook['Android']);
+  
+  phoneBook['Android'] = 888888888;
+  print(phoneBook['Android']);
+  
+  print(phoneBook.length);
+  
+  print(phoneBook.keys);
+  
+  print(phoneBook.values);
+}
+```
