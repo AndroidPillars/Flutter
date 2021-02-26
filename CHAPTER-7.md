@@ -271,3 +271,8 @@ class _LoadingScreenState extends State<LoadingScreen> {
   }
 }
 ```
+
+## API [Application Programming Interface]
+
+- API request is a way of sending messages to software on another computer over the internet or over a network.
+- A web browser will usually make GET requests and POST requests.
