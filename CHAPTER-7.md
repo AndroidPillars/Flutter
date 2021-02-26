@@ -158,3 +158,40 @@ class ScreenState extends State<Screen> {
   }
 }
 ```
+
+## Exception Handling and Null Aware Operators
+
+- The Exception Handling is a mechanism to handle the runtime errors so that normal flow of the application can be maintained.
+- In Java, all exception classes are descendants of class Throwable.
+- four keyword Types -> try, catch, finally and throw
+- Types -> Checked Exception, Unchecked Exception and Errors
+
+__Checked Exception__
+
+- Checked exception is checked at compile time. 
+- This exception type extends the Throwable class.
+- Example: IOException, SQLException, FileNotFoundException, ClassNotFoundException etc.
+
+__Unchecked Exception__
+
+- Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
+- Example:  ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
+
+__Error__
+
+- Error is irrecoverable.
+- Example: OutOfMemoryError, VirtualMachineError, AssertionError etc.
+
+```ruby
+main() {
+ 
+  String myString = 'abc';
+  
+  try{
+    double myStringAsDouble = double.parse(myString);
+    print(myStringAsDouble + 5);
+  } catch(e){
+    print(e);
+  }
+}
+```
