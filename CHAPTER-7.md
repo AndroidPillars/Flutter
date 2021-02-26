@@ -182,6 +182,8 @@ __Error__
 - Error is irrecoverable.
 - Example: OutOfMemoryError, VirtualMachineError, AssertionError etc.
 
+__Example__
+
 ```ruby
 main() {
  
@@ -194,4 +196,15 @@ main() {
     print(e);
   }
 }
+```
+
+__Null Aware Operators__
+
+- Null-aware operators in dart allow you to make computations based on whether or not a value is null. 
+- It’s shorthand for longer expressions.
+
+__Syntax__
+
+```ruby
+mVariable ?? defaultValue
 ```
