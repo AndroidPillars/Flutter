@@ -208,3 +208,66 @@ __Syntax__
 ```ruby
 mVariable ?? defaultValue
 ```
+
+## Getting Current Location
+
+__pubspec.yaml__
+
+```ruby
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  geolocator: ^6.2.1
+```
+
+__AndroidManifest.xml__
+
+```ruby
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
+
+__Info.plist__
+
+```ruby
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>This app needs access to location when open.</string>
+```
+
+__loading_screen.dart__
+
+```ruby
+import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
+
+class LoadingScreen extends StatefulWidget {
+  @override
+  _LoadingScreenState createState() => _LoadingScreenState();
+}
+
+class _LoadingScreenState extends State<LoadingScreen> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    getLocation();
+  }
+
+  void getLocation() async {
+    try {
+      Position position = await Geolocator.getCurrentPosition(
+          desiredAccuracy: LocationAccuracy.low);
+      print(position);
+    } catch (e) {
+      print(e);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+}
+```
