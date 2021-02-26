@@ -110,3 +110,51 @@ void task3(String resultData) {
 }
 ```
 
+## Widgets Lifecycle Methods
+
+__Stateless Widget__
+
+- A stateless widget can only be drawn once when the Widget is loaded/built. 
+- A stateless widget cannot be redrawn based on any events or user actions. 
+- In the below exampl, Screen is a Stateless widget and it has overridden the function called Widget build(BuildContet context) which returns one widget. 
+- So, whenever Screen is instantiated, it will call the build(...) function and draw the widgets returned by this function.
+
+```ruby
+class Screen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return null;
+  }
+}
+```
+
+__Stateful Widget__
+
+- The Stateful widget is mutable that's why it can be drawn multiple times within its lifetime. 
+- It is useful when we dynamically update screen of app on user actions. 
+- The build(...) method of state can be called multiple times during its lifetime and every build may return new or different widgets based on mulitple parameters.
+
+```ruby
+class ScreenState extends State<Screen> {
+  @override
+  void initState(){
+    super.initState();
+    // This will called at first
+  }
+  @override
+  void didChangeDependencies(){
+    super.didChangeDependencies();
+    // Additional code
+  }
+  @override
+  void dispose(){
+    // This calls when the screen gets destroyed
+    super.dispose();
+  }
+  @override
+  Widget build(BuildContext context){
+    //This calls once initializes the UI
+    return null;
+  }
+}
+```
