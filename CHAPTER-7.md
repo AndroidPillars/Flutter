@@ -330,14 +330,13 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
   void getData() async {
     http.Response response = await http.get(
-        'http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=addyourappid'); // you have to add your own app id
+        'http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=1c56d238e55dbd7e02da908c3292da01'); // you have to add your own app id
     if (response.statusCode == 200) {
       String data = response.body;
       var decodeData = jsonDecode(data);
 
-      double longitude = decodeData['coord']['long'];
-      String weatherDescription =
-          decodeData['coord']['weather'][0]['description'];
+      double longitude = decodeData['coord']['lon'];
+      String weatherDescription = decodeData['weather'][0]['description'];
     } else {
       print(response.statusCode);
     }
