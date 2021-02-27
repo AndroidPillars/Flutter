@@ -349,3 +349,72 @@ class _LoadingScreenState extends State<LoadingScreen> {
   }
 }
 ```
+
+## Passing Data to a State Object
+
+- The simplest way to send data from a widget to another is by its constructor.
+
+__loading_screen.dart__
+
+```ruby
+class _LoadingScreenState extends State<LoadingScreen> {
+  double latitude;
+  double longitude;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    getLocationData();
+  }
+
+  void getLocationData() async {
+    Location mLocation = Location();
+    await mLocation.getCurrentLocation();
+
+    latitude = mLocation.latitude;
+    longitude = mLocation.longitude;
+
+    NetworkHelper networkHelper = NetworkHelper(
+        'http://api.openweathermap.org/data/2.5/weather?lat=$latitude&lon=$longitude&appid=$apiKey');
+
+    var weatherData = await networkHelper.getData();
+
+    Navigator.push(context, MaterialPageRoute(builder: (context) {
+      return LocationScreen(locationWeather: weatherData);
+    }));
+  }
+}
+```
+
+__location_screen.dart__
+
+```ruby
+class LocationScreen extends StatefulWidget {
+  LocationScreen({this.locationWeather});
+
+  final locationWeather;
+
+  @override
+  _LocationScreenState createState() => _LocationScreenState();
+}
+
+class _LocationScreenState extends State<LocationScreen> {
+  double longitude;
+  String weatherDescription;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    updateUI(widget.locationWeather);
+  }
+
+  void updateUI(dynamic weatherData) {
+    longitude = weatherData['coord']['lon'];
+    weatherDescription = weatherData['weather'][0]['description'];
+  }
+}
+```
