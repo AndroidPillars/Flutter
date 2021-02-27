@@ -276,7 +276,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
 - API request is a way of sending messages to software on another computer over the internet or over a network.
 - A web browser will usually make GET requests and POST requests.
-- __Note__ For getting the json sample response visit, https://openweathermap.org/api
+- __Note:__ For getting the json sample response visit, https://openweathermap.org/api
 - Two Types of Response -> JSON and XML.
 
 __JSON__
