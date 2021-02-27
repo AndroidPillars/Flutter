@@ -276,3 +276,77 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
 - API request is a way of sending messages to software on another computer over the internet or over a network.
 - A web browser will usually make GET requests and POST requests.
+- __Note__ For getting the json sample response visit, https://openweathermap.org/api
+- Two Types of Response -> JSON and XML.
+
+__JSON__
+
+- JSON stands for JavaScript Object Notation. 
+- It's an open-standard file format that is used for browser-server communications. 
+- It's a language-independent data format. 
+
+```ruby
+{key:value}
+```
+
+__XML__
+
+- XML stands for Extensible Markup Language. 
+- It's a set of rules that help the users to encode documents in a human-readable format and machine-readable.
+
+```ruby
+<key>value</key>
+```
+
+__loading_screen.dart__
+
+```ruby
+import 'package:flutter/material.dart';
+import 'package:clima/services/location.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+class LoadingScreen extends StatefulWidget {
+  @override
+  _LoadingScreenState createState() => _LoadingScreenState();
+}
+
+class _LoadingScreenState extends State<LoadingScreen> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    getLocation();
+  }
+
+  void getLocation() async {
+    Location mLocation = Location();
+    await mLocation.getCurrentLocation();
+
+    print(mLocation.latitude);
+    print(mLocation.longitude);
+  }
+
+  void getData() async {
+    http.Response response = await http.get(
+        'http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=addyourappid'); // you have to add your own app id
+    if (response.statusCode == 200) {
+      String data = response.body;
+      var decodeData = jsonDecode(data);
+
+      double longitude = decodeData['coord']['long'];
+      String weatherDescription =
+          decodeData['coord']['weather'][0]['description'];
+    } else {
+      print(response.statusCode);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    getData();
+    return Scaffold();
+  }
+}
+```
