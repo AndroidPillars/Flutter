@@ -31,3 +31,20 @@ Container(
     ),
 ),
 ```
+
+## For-Loop
+
+- The Java for loop is used to iterate a part of the program several times.
+- where, int i= 0; is the Initialization, i < 10; is the Condition and i++ increments the values
+
+```ruby
+main() {
+  for (int i = 0; i < 10; i++) {   
+       print(i);    
+    };
+  
+// for (int i = 0; i < 10; i+=2) {   
+//  print(i);    
+// };
+}
+```
