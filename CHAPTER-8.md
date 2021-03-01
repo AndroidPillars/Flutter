@@ -11,7 +11,6 @@ Container(
   padding: EdgeInsets.only(bottom: 30.0),
   color: Colors.lightBlue,
   child: DropdownButton(
-    value: 'INR',
     items: [
       DropdownMenuItem(
       child: Text('USD'),
