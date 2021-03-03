@@ -101,3 +101,30 @@ void checkNumber(List<int> myNumbers){
 }
 ```
 
+## Cupertino Widgets
+
+- CupertinoApp is used to build iOS like app and MaterialApp is used to build Android (Material) like app.
+
+__PriceScreen.dart__
+
+```ruby
+Container(
+  height: 150.0,
+  alignment: Alignment.center,
+  padding: EdgeInsets.only(bottom: 30.0),
+  color: Colors.lightBlue,
+  child: CupertinoPicker(
+     backgroundColor: Colors.lightBlue,
+     itemExtent: 32.0,
+     onSelectedItemChanged: (selectedIndex) {
+        print(selectedIndex);
+     },
+        children: [
+          Text('USD'),
+          Text('INR'),
+          Text('EUR'),
+        ],
+))
+```
+
+
