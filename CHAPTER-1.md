@@ -122,4 +122,5 @@ the option to remove widget.
 - https://www.materialpalette.com/ [Color Picker]
 - https://www.colorzilla.com/ [Color Picker]
 - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh [JSON Viewer]
+- https://www.coinapi.io/pricing?apikey
 
