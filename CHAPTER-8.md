@@ -5,6 +5,8 @@
 __PriceScreen.dart__
 
 ```ruby
+import 'package:flutter/material.dart';
+
 Container(
   height: 150.0,
   alignment: Alignment.center,
@@ -109,6 +111,8 @@ void checkNumber(List<int> myNumbers){
 __PriceScreen.dart__
 
 ```ruby
+import 'package:flutter/cupertino.dart';
+
 Container(
   height: 150.0,
   alignment: Alignment.center,
