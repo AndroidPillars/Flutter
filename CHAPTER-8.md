@@ -103,7 +103,8 @@ void checkNumber(List<int> myNumbers){
 
 ## Cupertino Widgets
 
-- CupertinoApp is used to build iOS like app and MaterialApp is used to build Android (Material) like app.
+- Cupertino Widgets is similar to that which provides you the structure to your iOS application page layout, targeting your iOS design.
+- In other words, CupertinoApp is used to build iOS like app and MaterialApp is used to build Android (Material) like app.
 
 __PriceScreen.dart__
 
