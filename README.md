@@ -88,5 +88,14 @@ __CHAPTER-6__
 | 10 | [Composition](CHAPTER-6.md#composition) |
 | 11 | [Routes & Navigation](CHAPTER-6.md#routes--navigation) |
 | 12 | [Maps [Dart]](CHAPTER-6.md#maps-dart) |
+
+__CHAPTER-8__  
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Material Dropdown Button Widget](CHAPTER-8.md#material-dropdown-button-widget) |
+| 2 | [For-Loop](CHAPTER-8.md#for-loop) |
+| 3 | [Cupertino Widgets](CHAPTER-8.md#cupertino-widgets) |
+| 4 | [Platform Specific UI with Flutter](CHAPTER-8.md#platform-specific-ui-with-flutter) |
     
 
