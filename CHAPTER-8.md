@@ -57,6 +57,8 @@ main() {
 }
 ```
 
+__using for..in Loop__
+
 ```ruby
 List<String> fruits = [
     'apple',
@@ -70,6 +72,8 @@ main() {
   }
 }
 ```
+
+__Filter using for..in Loop__
 
 ```ruby
 List<int> winningNumbers = [12, 6, 34, 22, 41, 9];
