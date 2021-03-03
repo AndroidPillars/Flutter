@@ -127,7 +127,18 @@ Container(
 ))
 ```
 
+## Platform Specific UI with Flutter
+
+- Flutter is quite good at handling platform specific interactions. 
+- For instance, you don’t need to write extra code for Android and iOS. 
+- However, there might be patterns you want to implement differently on each platform in a platform-dependent way.
+
 ```ruby
+import 'dart:io';
+
+// Platform.isIOS // Returns true on iOS devices
+// Platform.isAndroid // Returns true on Android devices
+
 DropdownButton<String> androidDropdown() {
     List<DropdownMenuItem<String>> dropdownItems = [];
     for (String currency in currenciesList) {
