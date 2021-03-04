@@ -89,6 +89,17 @@ __CHAPTER-6__
 | 11 | [Routes & Navigation](CHAPTER-6.md#routes--navigation) |
 | 12 | [Maps [Dart]](CHAPTER-6.md#maps-dart) |
 
+__CHAPTER-7__  
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Futures, Asysnc and Await](CHAPTER-7.md#futures-asysnc-and-await) | 
+| 2 | [Widgets Lifecycle Methods](CHAPTER-7.md#widgets-lifecycle-methods) | 
+| 3 | [Exception Handling and Null Aware Operators](CHAPTER-7.md#exception-handling-and-null-aware-operators) |
+| 4 | [Getting Current Location](CHAPTER-7.md#getting-current-location) |
+| 5 | [API [Application Programming Interface]](CHAPTER-7.md#api-application-programming-interface) |
+| 6 | [Passing Data to a State Object](CHAPTER-7.md#passing-data-to-a-state-object) |
+
 __CHAPTER-8__  
 
 | S.No | Content |
