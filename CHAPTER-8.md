@@ -227,3 +227,45 @@ class Square {
   
 }
 ```
+
+## Animations
+
+- Adding Animations in Flutter app is quite simple.
+
+__ Hero Animations__
+
+__welcome_screen.dart__
+
+```ruby
+ Row(
+   children: <Widget>[
+     Hero(
+      tag: 'logo',
+      child: Container(
+      child: Image.asset('images/logo.png'),
+        height: 60.0,
+      ),
+     ),
+     Text(
+      'Flash Chat',
+       style: TextStyle(
+       fontSize: 45.0,
+       fontWeight: FontWeight.w900,
+        ),
+      ),
+   ],
+),
+```
+
+__registration_screen.dart__
+
+```ruby
+Hero(
+   tag: 'logo',
+   child: Container(
+     height: 200.0,
+     child: Image.asset('images/logo.png'),
+    ),
+),
+```
+
