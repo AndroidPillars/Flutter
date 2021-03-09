@@ -278,3 +278,38 @@ Hero(
 - __Animation Value__ - It is the thing that actually does the animation.
 - The animation values will go from 0 to 1 and by using the value, we can able to change  things such as height, size, color and opacity of a component.
 
+__welcome.dart__
+
+```ruby
+class _WelcomeScreenState extends State<WelcomeScreen>
+    with SingleTickerProviderStateMixin {
+  AnimationController controller;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    controller =
+        AnimationController(duration: Duration(seconds: 1), vsync: this);
+
+    controller.forward();
+
+    controller.addListener(() {
+      setState(() {});
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.red.withOpacity(controller.value),
+      body: Padding(
+        padding: EdgeInsets.symmetric(horizontal: 24.0),
+        child: Column(),
+      ),
+    );
+  }
+}
+```
+
