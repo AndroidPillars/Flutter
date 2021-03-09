@@ -313,6 +313,8 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 }
 ```
 
+__welcome.dart [Using Curved Animation]__
+
 ```ruby
 class _WelcomeScreenState extends State<WelcomeScreen>
     with SingleTickerProviderStateMixin {
@@ -380,6 +382,54 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+```
+
+__welcome.dart [Using Curved Animation]__
+
+```ruby
+class _WelcomeScreenState extends State<WelcomeScreen>
+    with SingleTickerProviderStateMixin {
+  AnimationController controller;
+  Animation animation; //For curved animation
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    controller = AnimationController(
+      duration: Duration(seconds: 1),
+      vsync: this,
+    );
+
+    animation = ColorTween(
+      begin: Colors.redAccent,
+      end: Colors.blue,
+    ).animate(controller);
+
+    controller.forward();
+
+    controller.addListener(() {
+      setState(() {});
+    });
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: animation.value,
+      body: Padding(
+        
       ),
     );
   }
