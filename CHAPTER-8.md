@@ -313,7 +313,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 }
 ```
 
-__welcome.dart [Using Curved Animation]__
+__welcome.dart[Using Curved Animation]__
 
 ```ruby
 class _WelcomeScreenState extends State<WelcomeScreen>
@@ -388,7 +388,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 }
 ```
 
-__welcome.dart [Using Curved Animation]__
+__welcome.dart[Using Curved Animation]__
 
 ```ruby
 class _WelcomeScreenState extends State<WelcomeScreen>
@@ -433,6 +433,63 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       ),
     );
   }
+}
+```
+
+## Mixins[Dart]
+
+- In object-oriented programming languages, a Mixin is a class that contains methods for use by other classes without having to be the parent class of those other classes.
+- In other words mixins are normal classes from which we can borrow methods(or variables) from without extending the class. 
+- In dart we can do this by using the keyword with.
+
+```ruby
+void main() {
+
+ Animal().move();
+ Fish().move();
+ Duck().fly();
+  
+}
+
+class Animal {
+  
+  void move(){
+    print('Dynamic Value');
+  }
+}
+
+class Fish extends Animal{
+  
+ @override
+  void move(){
+    super.move();
+    print('Swimming');
+  }
+}
+
+class Bird extends Animal{
+ 
+  @override
+  void move(){
+    super.move();
+    print('Flying');
+  }
+}
+
+mixin CanSwim {
+  void swim(){
+    print('Swim');
+  }
+}
+
+mixin CanFly {
+  void fly(){
+    print('Swim');
+  }
+}
+
+class Duck extends Animal with CanSwim, CanFly{
+ 
 }
 ```
 
