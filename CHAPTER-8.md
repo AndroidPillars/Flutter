@@ -232,6 +232,11 @@ class Square {
 
 - Adding Animations in Flutter app is quite simple.
 
+__Prepackaged Flutter Animations__
+
+- https://pub.dev/packages/flutter_sequence_animation
+- https://pub.dev/packages/animated_text_kit
+
 __ Hero Animations__
 
 __welcome_screen.dart__
@@ -277,6 +282,7 @@ Hero(
 - __Animation Controller__ - It is the animation controler class which is going to tell the animation to start, to stop, to go forwards, to loop back, how long to animate for,   all of these things are determined when we create an animation controller and set it's properties.
 - __Animation Value__ - It is the thing that actually does the animation.
 - The animation values will go from 0 to 1 and by using the value, we can able to change  things such as height, size, color and opacity of a component.
+- Refer, https://api.flutter.dev/flutter/animation/Curves-class.html
 
 __welcome.dart__
 
@@ -492,4 +498,7 @@ class Duck extends Animal with CanSwim, CanFly{
  
 }
 ```
+
+
+
 
