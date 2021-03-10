@@ -6,7 +6,11 @@
 - For Documentation and Creation, Visit https://firebase.google.com/
 - For Android, Create the package name, Download google-services.json and add that in the app folder.
 - Finally add Firebase SDK in the build.gradle as per the documentation.
-- For IOS, will update soon
+- For IOS, Need a MAC machine with XCode.
+- Select the IOS App and Register our App using ios bundle ID.
+- For Getting ios bundle ID -> Locate the ios path folder in our application and open Runner.xcodeproj using XCode.
+- Now click Runner(top of the module) -> Check the name in Bundle identifier.
+- Now copy or drag and put under the runner folder in our application.
 - __Firebase Flutter Packages Setup__ Visit, https://pub.dev/packages/cloud_firestore/install
 - For Flutter packages Visit, https://github.com/FirebaseExtended/flutterfire
 - Now add the following packages(i.e.) firebase_core, firebase_auth and cloud_firestore
