@@ -14,4 +14,4 @@
 - __Firebase Flutter Packages Setup__ Visit, https://pub.dev/packages/cloud_firestore/install
 - For Flutter packages Visit, https://github.com/FirebaseExtended/flutterfire
 - Now add the following packages(i.e.) firebase_core, firebase_auth and cloud_firestore
-- Now add for IOS 3.25 
+- Now in the Terminal -> pod repo update
