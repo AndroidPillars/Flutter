@@ -11,6 +11,3 @@
 - For Flutter packages Visit, https://github.com/FirebaseExtended/flutterfire
 - Now add the following packages(i.e.) firebase_core, firebase_auth and cloud_firestore
 - Now add for IOS 3.25 
-
-
-- https://github.com/flutter/plugins
