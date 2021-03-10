@@ -4,9 +4,9 @@
 - This includes things like analytics, authentication, databases, configuration, file storage, push messaging, and the list goes on. 
 - The services are hosted in the cloud, and scale with little to no effort on the part of the developer.
 - For Documentation and Creation, Visit https://firebase.google.com/
-- For Android, Create the package name, Download google-services.json and add that in the app folder.
+- __For Android,__ Create the package name, Download google-services.json and add that in the app folder.
 - Finally add Firebase SDK in the build.gradle as per the documentation.
-- For IOS, Need a MAC machine with XCode.
+- __For IOS,__ Need a MAC machine with XCode.
 - Select the IOS App and Register our App using ios bundle ID.
 - For Getting ios bundle ID -> Locate the ios path folder in our application and open Runner.xcodeproj using XCode.
 - Now click Runner(top of the module) -> Check the name in Bundle identifier.
