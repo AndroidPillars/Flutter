@@ -15,8 +15,5 @@
 - For Flutter packages Visit, https://github.com/FirebaseExtended/flutterfire
 - Now add the following packages(i.e.) firebase_core, firebase_auth and cloud_firestore
 - If cocoapods is not installed we have to install using the following link, https://cocoapods.org/
-- If already installed the Cocoapods just update it in the Terminal using the below command
-  ```ruby
-  pod repo update
-  ```
+- Follow this link to get installed regarding cocoapods , https://github.com/flutter/flutter/issues/53685#issuecomment-606981550
 - 
