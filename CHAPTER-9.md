@@ -17,3 +17,35 @@
 - If cocoapods is not installed we have to install using the following link, https://cocoapods.org/
 - Follow this link to get installed regarding cocoapods , https://github.com/flutter/flutter/issues/53685#issuecomment-606981550
 - 
+
+
+## Flutter Architecture Patterns
+
+## What is Architecture?
+
+- If you are building an application in an organized manner with some set of rules, describe proper functionalities and implement it with proper protocols, then it is called an Architecture.
+
+## MVC
+
+- It is a Model-View-Controller and the most commonly used architecture. 
+- MVC helps us to separates the business logic and presentation layer from each other.
+- These are the three components used in MVC.
+
+__Model__
+ 
+- It has business logic and Data State. 
+- Getting and manipulating the data, communicates with the controller, interacts with the database, sometimes update the views.
+
+__View__
+
+- The __View__ refers to the xml files.
+- It communicates with the controller and sometimes interacts with the model. 
+- It passes some dynamic views through the controller.
+
+__Controller__
+
+- It is Activity/Fragment.
+- It communicates with view and model.
+- It takes the user input from view/REST services and process request Get data from the model and passes to the view.  
+
+
