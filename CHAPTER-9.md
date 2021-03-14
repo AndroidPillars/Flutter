@@ -48,4 +48,17 @@ __Controller__
 - It communicates with view and model.
 - It takes the user input from view/REST services and process request Get data from the model and passes to the view.  
 
+## Different Types of Flutter State Management
+
+- BloC
+- setState
+- Provider
+- Scopped Model
+- Lifting State Up
+- MVC
+- Mobx
+- InheritedWidget
+- Redux
+- ValueNotifier
+
 
