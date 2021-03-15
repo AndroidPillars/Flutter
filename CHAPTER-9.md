@@ -61,4 +61,13 @@ __Controller__
 - Redux
 - ValueNotifier
 
+## Provider
 
+- In Flutter development we use Provider for state management.
+- We can use it to provide a value (usually a data model object) to anywhere in the widget tree. 
+- However, it won’t help you update the widget tree when that value changes.
+- Add the below dependency for accessing in to the application.
+
+```ruby
+provider: ^3.0.0+1
+```
