@@ -49,7 +49,7 @@ void main() => runApp(
     );
 ```
 
-## Working with Assets
+## Working with Assets and pubspec file
 
 - To Load images from app -> Project Name -> Right Click -> New -> Directory -> images
 - Put some .png format images in that folder.
@@ -82,6 +82,10 @@ void main() => runApp(
 
 __pubspec.yaml__
 
+- This is a special type of file called yaml file which stands for YAML Ain't Markup Language.
+- It's meant to be this human readable type of language that machines can also understand, to interupt how you want to configure certain things, such as our Flutter project.
+- When we are working working with yaml fie we should be very careful about the intentation(i.e.) Every indent is two spaces.
+
 ```ruby
 flutter:
 
@@ -104,17 +108,19 @@ flutter:
 - Select ios Folder -> Select Runner -> then Select Assets.xcassets
 - Replace the Assets.xcassets folders -> Downloaded from  https://appicon.co/
 - In Android for Loading Launcher icons in different styles -> Select Android Folder ->  Select res -> 
-Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> Next -> Finish
+  Right Click -> New -> Image Asset -> choose the path of the image -> Resize -> Next -> Finish
 
 ## Running App on a Physical Device
 
 __For Android,__
+
 - In Android Mobile -> Go to Settings -> About -> Build number -> Tap multiple times until you get the message 'Developer mode is Enabled'(or) It may vary depending on the versions of the Mobile OS. 
 - In Some Versions of Android -> Settings -> About Phone -> Versions -> Tap multiple times to enable developer option.
 - In settings you will get the menu Developer Options -> Enable Developer Options and USB debugging.
 - For Further reference, check https://developer.android.com/studio/run/device
 
-__For IOS,__  
+__For IOS,__ 
+
 - For IOS, you need an Apple ID and Xcode.
 - IOS version is compatible with the Xcode Version.
 - Install homebrew.
@@ -148,7 +154,7 @@ __For IOS,__
 
 - Hot restart is much different than hot reload.
 - In Hot restart it destroys the preserves State value and set them to their default.
-- So if you are using States value in your application then After every hot restart the developer gets fully compiled application and all the states will set to their   defaults.
+- So if you are using States value in your application then After every hot restart the developer gets fully compiled application and all the states will set to their             defaults.
 - The app widget tree is completely rebuilt with new typed code. 
 - Hot Restart takes much higher time than Hot reload.
 
@@ -158,7 +164,7 @@ __For IOS,__
 
 - The single child layout widget is a type of widget, which can have only one child widget inside the parent layout widget.
 - Align, AspectRatio, Baseline, Center, ConstrainedBox, Container, CustomSingleChildLayout, Expanded, FittedBox, FractionallySizedBox, IntrinsicHeight, IntrinsicWidth,
-LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
+  LimitedBox, Offstage, OverflowBox, Padding, SizedBox, SizedOverflowBox and Transform.
 
 __main.dart__
 
