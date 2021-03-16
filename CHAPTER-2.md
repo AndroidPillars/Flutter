@@ -85,7 +85,7 @@ __pubspec.yaml__
 - This is a special type of file called yaml file which stands for YAML Ain't Markup Language.
 - It's meant to be this human readable type of language that machines can also understand, to interupt how you want to configure certain things, such as our Flutter project.
 - When we are working working with yaml fie we should be very careful about the intentation(i.e.) Every indent is two spaces.
-- In __simple terms__, it a file where you can provide all the dependencies (optional and required — e.g., plugins, Dart version, font, images) of your Flutter project and also   a place where you configure the project’s name and description.
+- In __simple terms__, it is a file where you can provide all the dependencies (optional and required — e.g., plugins, Dart version, font, images) of your Flutter project and     also a place where you configure the project’s name and description.
 
 ```ruby
 flutter:
