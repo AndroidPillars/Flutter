@@ -166,6 +166,16 @@ void main() {
 - In the the above example, var a is having different data types but not able to change in Dart. 
 - Dart also having a data type called dynamic.
 - Also we can done by using 'dynamic' keyword as below,
+
+```ruby
+void main() {
+  var a;
+  a = 'HelloWorld';
+  a = 123;
+  print(a);
+}
+```
+
 ```ruby
 void main() {
   dynamic a;
