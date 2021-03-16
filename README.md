@@ -22,7 +22,7 @@ __CHAPTER-2__
 | --------	 | ------------ |
 | 1 | [MaterialApp Class](CHAPTER-2.md#materialapp-class) |
 | 2 | [Scaffold Widet](CHAPTER-2.md#scaffold-widet) |
-| 3 | [Working with Assets](CHAPTER-2.md#working-with-assets) |
+| 3 | [Working with Assets and pubspec file](CHAPTER-2.md#working-with-assets-and-pubspec-file) |
 | 4 | [Change Launcher Icon](CHAPTER-2.md#change-launcher-icon) |
 | 5 | [Running App on a Physical Device](CHAPTER-2.md#running-app-on-a-physical-device) |
 | 6 | [Import project from GitHub](CHAPTER-2.md#import-project-from-github) |
