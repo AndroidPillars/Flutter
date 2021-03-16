@@ -96,7 +96,7 @@ flutter:
 
 ## Working with Material Icons
 
-- Material icons are delightful, beautifully crafted symbols for common actions and items.
+- Material icons are delightful, beautifully crafted symbols for common actions and items which is both available for Android and IOS.
 
 __Read the Documentation in__ 
 
@@ -420,7 +420,8 @@ class MyApp extends StatelessWidget {
 
 ## Working with Expanded
 
-- A Widget that expands a child of a Row, Column, or Flex.
+- A widget that expands a child of a Row, Column, or Flex so that the child fills the available space. 
+- Using an Expanded widget makes a child of a Row, Column, or Flex expand to fill the available space along the main axis (e.g., horizontally for a Row or vertically for a       Column).
 
 __Read the Documentation in__ 
 
