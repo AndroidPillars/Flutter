@@ -96,6 +96,8 @@ flutter:
 
 ## Working with Material Icons
 
+- Material icons are delightful, beautifully crafted symbols for common actions and items.
+
 __Read the Documentation in__ 
 
 - https://api.flutter.dev/flutter/material/Icons-class.html
@@ -202,6 +204,9 @@ class MyApp extends StatelessWidget {
 ```
 
 ## Working with Card
+
+- A material design card: a panel with slightly rounded corners and an elevation shadow.
+- A card is a sheet of Material used to represent some related information, for example an album, a geographical location, a meal, contact details, etc.
 
 __Read the Documentation in__ 
 
@@ -311,6 +316,9 @@ class MyApp extends StatelessWidget {
 ```
 
 ## Working with ListTile, Column and Divider
+
+- ListTile widget is used to populate a ListView in Flutter. 
+- It contains title as well as leading or trailing icons.
 
 __Read the Documentation in__ 
 
@@ -475,6 +483,10 @@ class DicePage extends StatelessWidget {
 ```
 
 ## Working with Buttons
+
+- Buttons are the graphical control element that provides a user to trigger an event such as taking actions, making choices, searching things, and many more. 
+- They can be placed anywhere in our UI like dialogs, forms, cards, toolbars, etc.
+- We mainly used the following types -> Flat Button, Raised Button, Floating Button and Drop Down Button.
 
 __Read the Documentation in__ 
 
