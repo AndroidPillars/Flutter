@@ -4,6 +4,7 @@
 - It is likely the main or core component of flutter. 
 - MaterialApp is the starting point of your app, it tells Flutter that you are going to use Material components and follow material design in your app.
 - __Material Design__ is just simply a design style or concept that was created by google and in flutter we are having lot of material components by using the Flutter widgets.
+- These are some widgets used in the Flutter Material library are Checkboxes, Radio Buttons, Text Fields, DateTime Pickers and an assortment of Buttons.
 
 ```ruby
 import 'package:flutter/material.dart';
