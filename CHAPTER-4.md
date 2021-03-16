@@ -30,7 +30,7 @@ __Anonymous Function__
 
 - An anonymous function is a function without a name. 
 - An anonymous function allows us to tell the computer to do something without explicitly having to create this entire function by giving it a name and call its name.
-- For example when we were coding up on our on pressed whicc expected a void callback.
+- For example when we were coding up on our on pressed which expected a void callback.
 
 ```ruby
 (){
