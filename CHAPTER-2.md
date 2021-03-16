@@ -161,6 +161,8 @@ __For IOS,__
 
 ## Layout widgets
 
+- Two Types -> Single-child layout widgets & Multi-child layout widgets.
+
 ## Single-child layout widgets 
 
 - The single child layout widget is a type of widget, which can have only one child widget inside the parent layout widget.
@@ -267,4 +269,3 @@ class MyApp extends StatelessWidget {
 - https://flutter.dev/docs/development/ui/widgets/layout
 - https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
 - https://medium.com/@dev.n/the-complete-flutter-series-article-2-basic-widgets-and-layout-in-flutter-92a4fbd4a3e1
-
