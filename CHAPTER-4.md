@@ -397,6 +397,10 @@ dependencies:
 
 ## Playing Sound using Dart Packages
 
+__Read the Documentation in__ 
+
+- https://pub.dev/packages/audioplayers
+
 __main.dart__
 
 ```ruby
@@ -437,6 +441,10 @@ dependencies:
 ```
 
 # Playing Multiple Sound using Dart Packages
+
+__Read the Documentation in__ 
+
+- https://pub.dev/packages/audioplayers
 
 __main.dart__
 
