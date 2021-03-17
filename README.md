@@ -71,6 +71,7 @@ __CHAPTER-5__
 | 5 | [Inheritance](CHAPTER-5.md#inheritance) |
 | 6 | [Polymorphism](CHAPTER-5.md#polymorphism) |
 | 7 | [Constructor](CHAPTER-5.md#constructor) |
+| 8 | [Conditionals - IF/ELSE](CHAPTER-5.md#conditionals---ifelse) |
 
 __CHAPTER-6__  
 
