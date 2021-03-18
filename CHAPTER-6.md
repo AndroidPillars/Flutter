@@ -901,6 +901,10 @@ class _InputPageState extends State<InputPage> {
 
 ## How to pass a function into a function
 
+- Functions are first-class objects in Dart and can be passed as parameters to other functions. 
+- We pass a function to a widget essentially saying, invoke this function when something happens. 
+- Callbacks using interfaces like Android have too much boilerplate code for a simple callback.
+
 __Example 1__
 
 ```ruby
@@ -1091,6 +1095,9 @@ class ReusableCard extends StatelessWidget {
 ```
 
 ## Customizing Slider widget with Themes
+
+- In Flutter, we can customize slider widgets with themes.
+- For more visit, https://api.flutter.dev/flutter/material/SliderThemeData-class.html
 
 __input_page.dart__
 
