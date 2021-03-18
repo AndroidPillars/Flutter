@@ -6,7 +6,7 @@
 - In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
 - Dart uses Flutter SDK which converts or compiles in to native code on both Android and IOS. 
 
-__Explanation in detail__
+__Explanation in Detail__
 
 - A Flutter is simply a toolkit that makes it easy to developers to design a beautiful interfaces, also screen sizes and devices
   which comes with a whole bunch of pre-build widgets that makes it easy to layout our App.
