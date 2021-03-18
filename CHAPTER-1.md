@@ -104,11 +104,12 @@ flutter doctor
 - To enable Flutter Inspector -> Search -> Flutter Inspector -> Enable Open Flutter Inspector view on app launch
 - To use Intension Action -> Select Flutter Outline and press first icon at Top left to set the widget at center.
 - If we wanna to remove an widget -> Select widgets -> Yellow bulb icon will show at left side -> where you are having
-the option to remove widget.
+  the option to remove widget.
 - We can check the warnings through clicking Dart Analysis at Bottom menu.
 - For Creating new project in Visual Studio Code -> Command palette -> Flutter: New Project
 - In Android Studio -> VCS -> Local History -> Show History where we can revert to the previous changes.
 - Name Suggestions in Android Studio -> Right Click -> Spelling -> Save 'any name' to project-level dictionary.
+- We can't add the colour property and the decoration property at the same time in the Container Widget.
 
 ## Documentation References
 
