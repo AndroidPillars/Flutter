@@ -3,7 +3,7 @@
 ## What is Flutter?
 
 - Flutter is a mobile UI framework developed by google which allows us to build both Android, IOS and even web with one single code base.
-- In Flutter everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
+- In Flutter, everything is a widget(i.e) Widgets are the basic building blocks of the user interface.
 - Dart uses Flutter SDK which converts or compiles in to native code on both Android and IOS. 
 
 __Explanation in detail__
