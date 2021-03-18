@@ -208,7 +208,7 @@ class MyApp extends StatelessWidget {
 - A material design card: a panel with slightly rounded corners and an elevation shadow.
 - A card is a sheet of Material used to represent some related information, for example an album, a geographical location, a meal, contact details, etc.
 
-__Read the Documentation in__ 
+__Read the Documentation using the below link__ 
 
 - https://api.flutter.dev/flutter/material/Card-class.html 
 
@@ -320,7 +320,7 @@ class MyApp extends StatelessWidget {
 - ListTile widget is used to populate a ListView in Flutter. 
 - It contains title as well as leading or trailing icons.
 
-__Read the Documentation in__ 
+__Read the Documentation using the below link__ 
 
 - https://api.flutter.dev/flutter/material/ListTile-class.html
 - https://api.flutter.dev/flutter/widgets/Column-class.html
@@ -423,7 +423,7 @@ class MyApp extends StatelessWidget {
 - A widget that expands a child of a Row, Column, or Flex so that the child fills the available space. 
 - Using an Expanded widget makes a child of a Row, Column, or Flex expand to fill the available space along the main axis (e.g., horizontally for a Row or vertically for a       Column).
 
-__Read the Documentation in__ 
+__Read the Documentation using the below link__ 
 
 - https://api.flutter.dev/flutter/widgets/Expanded-class.html
 
@@ -489,7 +489,7 @@ class DicePage extends StatelessWidget {
 - They can be placed anywhere in our UI like dialogs, forms, cards, toolbars, etc.
 - We mainly used the following types -> Flat Button, Raised Button, Floating Button and Drop Down Button.
 
-__Read the Documentation in__ 
+__Read the Documentation using the below link__ 
 
 - https://flutter.dev/docs/development/ui/widgets/material#Buttons
 
