@@ -98,7 +98,7 @@ flutter:
 
 - Material icons are delightful, beautifully crafted symbols for common actions and items which is both available for Android and IOS.
 
-__Read the Documentation in__ 
+__Read the Documentation using the below link__ 
 
 - https://api.flutter.dev/flutter/material/Icons-class.html
 - https://material.io/resources/icons/?style=baseline
