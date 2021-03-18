@@ -8,6 +8,7 @@
 - Deploy that code to different devices and platform with out changing that code.
 - We can build Application in Android, IOS and even Web and Desktop with single code base using Dart.
 - For Adopting all screen ratio to various platform, Flutter introduced lot of core concepts from web.(i.e)eg. using Row, Column, Stack, Padding and Center.
+- __In Simple__ Flutter is a mobile UI framework developed by google which allows us to build both Android and IOS with one single code base.
 
 ## Why Flutter
 
