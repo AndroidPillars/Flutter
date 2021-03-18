@@ -184,6 +184,17 @@ class ReusableCard extends StatelessWidget {
 }
 ```
 
+__pubspec.yaml__
+
+```ruby
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+```
+
 ## Final vs Const
 
 - If you never intend to change a variable then we have to declare using the keyword final or const.
