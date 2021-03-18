@@ -18,7 +18,7 @@ __Explanation in Detail__
 ## Why Flutter
 
 - It is a single code base.
-- Dart -> It is a powerful language that is quite easy to work and is very similar to Oops. So we can learn easily.
+- Dart -> It is a powerful language that is quite easy to work and is very similar to Oops and we can learn easily.
 - We can use Flutter and Dart to build Android, IOS mobile Apps and even web application that run on your desktop.
 - Flutter allows you to build a simple and Flexible layout system to build beautiful interfaces.
 - Hot Reload -> Instant run with in a Second.
