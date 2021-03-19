@@ -139,7 +139,7 @@ class ScreenState extends State<Screen> {
   @override
   void initState(){
     super.initState();
-    // This will called at first
+    // This will called at first(i.e) which gets triggered when the state gets initially initialized.
   }
   @override
   void didChangeDependencies(){
@@ -153,8 +153,13 @@ class ScreenState extends State<Screen> {
   }
   @override
   Widget build(BuildContext context){
-    //This calls once initializes the UI
+    //This calls once initializes the UI(i.e) when the widgets are actually build and show up on screen
     return null;
+  }
+  @override
+  void deactivate() {
+    // This called when the stateful widget gets destroyed
+    super.deactivate();
   }
 }
 ```
