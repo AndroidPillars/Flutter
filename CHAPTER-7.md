@@ -216,6 +216,8 @@ mVariable ?? defaultValue
 
 ## Getting Current Location
 
+- A Flutter geolocation plugin which provides easy access to platform specific location services (FusedLocationProviderClient or if not available     the LocationManager on Android and CLLocationManager on iOS).
+
 __pubspec.yaml__
 
 ```ruby
