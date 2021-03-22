@@ -1005,3 +1005,39 @@ void loveCalculator(){
   
 }
 ```
+
+## Closures and the Fold Method
+
+- Reduces a collection to a single value by iteratively combining each element of the collection with an exisitng value.
+- Fold is also known as funtional operators.
+
+__Example using for loop__
+
+```ruby
+void main() {
+  final values = [1,2,3,4];
+  
+  int result = 0;
+  
+  for (int i= 0; i<values.length; i++){
+    result += values[i];
+  }
+  print(result);
+  
+  // Simplified for loop
+  for (int value in values){
+    result += value;
+  }
+  print(result);
+}
+```
+
+__Example using closures and the fold method__
+
+```ruby
+void main() {
+  final values = [1,2,3,4];
+  int mValues = values.fold(0, (result, value) => result + value);
+  print(mValues);
+}
+```
