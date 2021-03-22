@@ -240,6 +240,8 @@ __Prepackaged Flutter Animations__
 
 __Hero Animations__
 
+- A Hero Animation in one sentence is simply an element of one screen moving to the next when the app goes to the next page.
+
 __welcome_screen.dart__
 
 ```ruby
