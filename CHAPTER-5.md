@@ -1041,3 +1041,27 @@ void main() {
   print(mValues);
 }
 ```
+
+## Computed Properties
+
+- Computed Properties are the features of Dart language that can be used to define properties whose value is computed reather than stored.
+- Getters and setters are special methods that provide explicit read and write access to an object's properties.
+
+__Example__
+
+```ruby
+abstract class Shape {
+	double get area;
+}
+
+class Square implements Shape{
+	Square({this.side});
+  final double side;
+  double get area => side * side;
+}
+
+void main(){
+	final square = Square(side: 10.0);
+  print(square.area);
+}
+```
