@@ -72,6 +72,8 @@ __CHAPTER-5__
 | 6 | [Polymorphism](CHAPTER-5.md#polymorphism) |
 | 7 | [Constructor](CHAPTER-5.md#constructor) |
 | 8 | [Conditionals - IF/ELSE](CHAPTER-5.md#conditionals---ifelse) |
+| 9 | [Closures and the Fold Method](CHAPTER-5.md#closures-and-the-fold-method) |
+| 10 | [Computed Properties](CHAPTER-5.md#computed-properties) |
 
 __CHAPTER-6__  
 
