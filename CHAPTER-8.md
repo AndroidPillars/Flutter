@@ -289,116 +289,13 @@ Hero(
 __welcome.dart__
 
 ```ruby
-class _WelcomeScreenState extends State<WelcomeScreen>
-    with SingleTickerProviderStateMixin {
-  AnimationController controller;
+class WelcomeScreen extends StatefulWidget {
+  static String id = 'welcome_screen';
 
   @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-
-    controller =
-        AnimationController(duration: Duration(seconds: 1), vsync: this);
-
-    controller.forward();
-
-    controller.addListener(() {
-      setState(() {});
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.red.withOpacity(controller.value),
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 24.0),
-        child: Column(),
-      ),
-    );
-  }
+  _WelcomeScreenState createState() => _WelcomeScreenState();
 }
-```
 
-__welcome.dart[Using Curved Animation]__
-
-```ruby
-class _WelcomeScreenState extends State<WelcomeScreen>
-    with SingleTickerProviderStateMixin {
-  AnimationController controller;
-  Animation animation; //For curved animation
-
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-
-    controller = AnimationController(
-      duration: Duration(seconds: 1),
-      vsync: this,
-    );
-
-    // Curved Animation
-    animation = CurvedAnimation(
-        parent: controller, curve: Curves.easeIn); // Curves.decelerate
-
-    //controller.reverse(from: 1.0);
-
-    controller.forward();
-
-    animation.addStatusListener((status) {
-      if (status == AnimationStatus.completed) {
-        controller.reverse(from: 1.0);
-      } else if (status == AnimationStatus.dismissed) {
-        controller.forward();
-      }
-    });
-
-    controller.addListener(() {
-      setState(() {});
-    });
-  }
-
-  @override
-  void dispose() {
-    // TODO: implement dispose
-    controller.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.red,
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 24.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Row(
-              children: <Widget>[
-                Hero(
-                  tag: 'logo',
-                  child: Container(
-                    child: Image.asset('images/logo.png'),
-                    height: animation.value * 100,
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-```
-
-__welcome.dart[Using Curved Animation]__
-
-```ruby
 class _WelcomeScreenState extends State<WelcomeScreen>
     with SingleTickerProviderStateMixin {
   AnimationController controller;
@@ -437,7 +334,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
     return Scaffold(
       backgroundColor: animation.value,
       body: Padding(
-        
+        padding: EdgeInsets.symmetric(horizontal: 24.0),
       ),
     );
   }
