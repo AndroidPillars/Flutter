@@ -111,5 +111,8 @@ __CHAPTER-8__
 | 2 | [For-Loop](CHAPTER-8.md#for-loop) |
 | 3 | [Cupertino Widgets](CHAPTER-8.md#cupertino-widgets) |
 | 4 | [Platform Specific UI with Flutter](CHAPTER-8.md#platform-specific-ui-with-flutter) |
+| 5 | [Static Modifier](CHAPTER-8.md#static-modifier) |
+| 6 | [Animations](CHAPTER-8.md#animations) |
+| 7 | [Custom Animtion](CHAPTER-8.md#custom-animtion) |
+| 8 | [Mixins [Dart]](CHAPTER-8.md#mixinsdart) |
     
-
