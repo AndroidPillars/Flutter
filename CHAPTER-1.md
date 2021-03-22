@@ -124,4 +124,6 @@ flutter doctor
 - https://www.materialpalette.com/ [Color Picker]
 - https://www.colorzilla.com/ [Color Picker]
 - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh [JSON Viewer]
+- https://medium.com/flutter-community/flutter-visual-studio-code-shortcuts-for-fast-and-efficient-development-7235bc6c3b7d [Visual Studio Shortcuts]
+- https://medium.com/flutter-community/flutter-ide-shortcuts-for-faster-development-2ef45c51085b [Android Studio Shortcuts]
 
