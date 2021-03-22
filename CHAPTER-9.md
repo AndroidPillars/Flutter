@@ -4,6 +4,7 @@
 - This includes things like analytics, authentication, databases, configuration, file storage, push messaging, and the list goes on. 
 - The services are hosted in the cloud, and scale with little to no effort on the part of the developer.
 - For Documentation and Creation, Visit https://firebase.google.com/
+- Now Add a project.
 - __For Android,__ Create the package name, Download google-services.json and add that in the app folder.
 - Finally add Firebase SDK in the build.gradle as per the documentation.
 - __For IOS,__ Need a MAC machine with XCode.
