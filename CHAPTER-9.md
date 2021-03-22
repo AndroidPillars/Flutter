@@ -54,7 +54,7 @@ __Controller__
 - No need to pass around state between different widgets.
 - Although global state allows your data to be shared and easily accessible from different widgets, it does not replace local state. 
 - They are both different and are used in different context.
-- There are several different ways of managing global state in Flutter and Some of them are BLoC, Redux, Inherited Widget, Inherited Model and Scoped Model
+- There are several different ways of managing global state in Flutter and Some of them are BLoC, Redux, Inherited Widget, Inherited Model and Scoped Model.
 
 ## Different Types of Flutter State Management
 
