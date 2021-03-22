@@ -289,18 +289,10 @@ Hero(
 __welcome.dart__
 
 ```ruby
-class WelcomeScreen extends StatefulWidget {
-  static String id = 'welcome_screen';
-
-  @override
-  _WelcomeScreenState createState() => _WelcomeScreenState();
-}
-
 class _WelcomeScreenState extends State<WelcomeScreen>
     with SingleTickerProviderStateMixin {
   AnimationController controller;
   Animation animation; //For curved animation
-
   @override
   void initState() {
     // TODO: implement initState
@@ -309,32 +301,51 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       duration: Duration(seconds: 1),
       vsync: this,
     );
-
-    animation = ColorTween(
-      begin: Colors.redAccent,
-      end: Colors.blue,
-    ).animate(controller);
-
+    // Curved Animation
+    animation = CurvedAnimation(
+        parent: controller, curve: Curves.easeIn); // Curves.decelerate
+    //controller.reverse(from: 1.0);
     controller.forward();
-
+    animation.addStatusListener((status) {
+      if (status == AnimationStatus.completed) {
+        controller.reverse(from: 1.0);
+      } else if (status == AnimationStatus.dismissed) {
+        controller.forward();
+      }
+    });
     controller.addListener(() {
       setState(() {});
     });
   }
-
   @override
   void dispose() {
     // TODO: implement dispose
     controller.dispose();
     super.dispose();
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: animation.value,
+      backgroundColor: Colors.red,
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 24.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Row(
+              children: <Widget>[
+                Hero(
+                  tag: 'logo',
+                  child: Container(
+                    child: Image.asset('images/logo.png'),
+                    height: animation.value * 100,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
