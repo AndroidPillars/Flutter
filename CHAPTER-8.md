@@ -230,6 +230,7 @@ class Square {
 
 ## Animations
 
+- Animation is a method in which figures are manipulated to appear as moving images and text. 
 - Adding Animations in Flutter app is quite simple.
 
 __Prepackaged Flutter Animations__
@@ -237,7 +238,7 @@ __Prepackaged Flutter Animations__
 - https://pub.dev/packages/flutter_sequence_animation
 - https://pub.dev/packages/animated_text_kit
 
-__ Hero Animations__
+__Hero Animations__
 
 __welcome_screen.dart__
 
@@ -277,7 +278,6 @@ Hero(
 ## Custom Animtion
 
 - It is setup and controlled in three components(i.e.)Ticker, AnimationController and Animation / Tween.
-
 - __Ticker__ - It tells us Changes in value or colour(i.e.)  It triggers a new state so that we can render something different on screen.
 - __Animation Controller__ - It is the animation controler class which is going to tell the animation to start, to stop, to go forwards, to loop back, how long to animate for,   all of these things are determined when we create an animation controller and set it's properties.
 - __Animation Value__ - It is the thing that actually does the animation.
