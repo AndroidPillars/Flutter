@@ -116,3 +116,14 @@ __CHAPTER-8__
 | 7 | [Custom Animtion](CHAPTER-8.md#custom-animtion) |
 | 8 | [Mixins [Dart]](CHAPTER-8.md#mixinsdart) |
     
+__CHAPTER-9__  
+
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [Stream](CHAPTER-9.md#stream) |
+| 2 | [StreamBuilder](CHAPTER-9.md#streambuilder) |
+| 3 | [Firebase](CHAPTER-9.md#firebase) |
+| 4 | [Flutter Architecture Patterns](CHAPTER-9.md#flutter-architecture-patterns) |
+| 5 | [Global State](CHAPTER-9.md#global-state) |
+| 6 | [Different Types of Flutter State Management](CHAPTER-9.md#different-types-of-flutter-state-management) |
+| 7 | [Provider](CHAPTER-9.md#provider) |
