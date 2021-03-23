@@ -12,13 +12,26 @@
 - For Getting ios bundle ID -> Locate the ios path folder in our application and open Runner.xcodeproj using XCode.
 - Now click Runner(top of the module) -> Check the name in Bundle identifier.
 - Now copy or drag and put under the runner folder in our application.
-- __Firebase Flutter Packages Setup__ Visit, https://pub.dev/packages/cloud_firestore/install
 - For Flutter packages Visit, https://github.com/FirebaseExtended/flutterfire
+- Firebase Flutter Packages Setup Visit, https://pub.dev/packages/cloud_firestore/install
 - Now add the following packages(i.e.) firebase_core, firebase_auth and cloud_firestore
 - If cocoapods is not installed we have to install using the following link, https://cocoapods.org/
 - Follow this link to get installed regarding cocoapods , https://github.com/flutter/flutter/issues/53685#issuecomment-606981550
-- 
+- Now add the packages in pubspec.yaml file.
 
+__pubspec.yaml__
+
+```ruby
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  animated_text_kit: ^3.1.2
+  firebase_core: ^0.3.4
+  firebase_auth: ^0.8.4+4
+  cloud_firestore: ^0.9.13+1
+```
 
 ## Flutter Architecture Patterns
 
