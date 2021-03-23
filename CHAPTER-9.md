@@ -34,6 +34,7 @@ dependencies:
 ```
 - Now, you can enable the Authentication in the Firebase and enable the necessary field that required.
 - Now Go to FireStore -> start in test mode -> choose the location and set enabled. 
+- For demo application visit, https://github.com/AndroidPillars/Flutter/tree/master/Level_4_applications/chat_app_using_firebase
 
 ## Flutter Architecture Patterns
 
