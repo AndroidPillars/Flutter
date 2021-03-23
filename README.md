@@ -124,6 +124,7 @@ __CHAPTER-9__
 | 2 | [StreamBuilder](CHAPTER-9.md#streambuilder) |
 | 3 | [Firebase](CHAPTER-9.md#firebase) |
 | 4 | [Flutter Architecture Patterns](CHAPTER-9.md#flutter-architecture-patterns) |
-| 5 | [Global State](CHAPTER-9.md#global-state) |
-| 6 | [Different Types of Flutter State Management](CHAPTER-9.md#different-types-of-flutter-state-management) |
-| 7 | [Provider](CHAPTER-9.md#provider) |
+| 5 | [MVC](CHAPTER-9.md#mvc) |
+| 6 | [Global State](CHAPTER-9.md#global-state) |
+| 7 | [Different Types of Flutter State Management](CHAPTER-9.md#different-types-of-flutter-state-management) |
+| 8 | [Provider](CHAPTER-9.md#provider) |
