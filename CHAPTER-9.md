@@ -32,6 +32,8 @@ dependencies:
   firebase_auth: ^0.8.4+4
   cloud_firestore: ^0.9.13+1
 ```
+- Now, you can enable the Authentication in the Firebase and enable the necessary field that required.
+- Now Go to FireStore -> start in test mode -> choose the location and set enabled. 
 
 ## Flutter Architecture Patterns
 
