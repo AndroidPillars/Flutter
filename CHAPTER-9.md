@@ -17,7 +17,7 @@
 - Now add the following packages(i.e.) firebase_core, firebase_auth and cloud_firestore
 - If cocoapods is not installed we have to install using the following link, https://cocoapods.org/
 - Follow this link to get installed regarding cocoapods , https://github.com/flutter/flutter/issues/53685#issuecomment-606981550
-- Now add the packages in pubspec.yaml file.
+- Now add the following packages in pubspec.yaml file.
 
 __pubspec.yaml__
 
