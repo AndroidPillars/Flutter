@@ -46,12 +46,6 @@ Widget build(BuildContext context) {
       });
 ```
 
-## How stream and Future are different?
-
-- A stream is a combination of Futures
-- Future has only one response but Stream could have any number of Response.
-- But both works asynchronously and some potential value
-
 ## Firebase
 
 - Firebase is mainly used to save our message data and our user details in the cloud by using their pre-built methods and classes.
@@ -92,7 +86,7 @@ dependencies:
 
 ## Flutter Architecture Patterns
 
-## What is Architecture?
+__What is Architecture?__
 
 - If you are building an application in an organized manner with some set of rules, describe proper functionalities and implement it with proper protocols, then it is called an Architecture.
 
