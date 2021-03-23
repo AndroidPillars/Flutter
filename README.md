@@ -1,6 +1,6 @@
 ## Flutter
 
-:point_right: For Flutter Course visit, this [Udemy Link](https://www.udemy.com/course/flutter-bootcamp-with-dart/). 
+:point_right: For Flutter Course visit, this [Udemy Link](https://www.udemy.com/course/flutter-bootcamp-with-dart/).  
 :point_right: Click :star: if you like the project.   
 :point_right: Pull Request are highly appreciated.  
 :point_right: Follow me [@Gowtham R](https://twitter.com/Gowtham26730226) for new technical updates.
