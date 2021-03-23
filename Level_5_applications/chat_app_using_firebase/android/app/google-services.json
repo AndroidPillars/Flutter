@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "683388440642",
+    "project_id": "chat-application-a4982",
+    "storage_bucket": "chat-application-a4982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683388440642:android:7ed4ceae5a0fd6a0581ddb",
+        "android_client_info": {
+          "package_name": "com.gowtham.chat_app_using_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683388440642-kcefqiakv3ltdsoodhgrvt0c6dm2vujs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI4J2Jnt11biHzxvk0ahrPIe6n5LYy184"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683388440642-kcefqiakv3ltdsoodhgrvt0c6dm2vujs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "683388440642-4ptni8fqu5gvhch4rlncd4pbdbpqk9f6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gowtham.chatAppUsingFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
