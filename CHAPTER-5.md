@@ -35,7 +35,7 @@ void main() {
   print(myList.indexOf('List1'));
   
   myList.add('List5'); // For adding an item
-  myList.insert(1,'List') // For adding the item in specific position
+  myList.insert(1,'List'); // For adding the item in specific position
     
 }
 ```
