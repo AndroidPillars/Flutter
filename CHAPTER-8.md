@@ -277,7 +277,7 @@ Hero(
 ),
 ```
 
-## Custom Animtion
+## Custom Animation
 
 - It is setup and controlled in three components(i.e.)Ticker, AnimationController and Animation / Tween.
 - __Ticker__ - It tells us Changes in value or colour(i.e.)  It triggers a new state so that we can render something different on screen.
