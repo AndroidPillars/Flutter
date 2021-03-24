@@ -118,7 +118,7 @@ __CHAPTER-8__
 | 4 | [Platform Specific UI with Flutter](CHAPTER-8.md#platform-specific-ui-with-flutter) |
 | 5 | [Static Modifier](CHAPTER-8.md#static-modifier) |
 | 6 | [Animations](CHAPTER-8.md#animations) |
-| 7 | [Custom Animtion](CHAPTER-8.md#custom-animtion) |
+| 7 | [Custom Animation](CHAPTER-8.md#custom-animation) |
 | 8 | [Mixins [Dart]](CHAPTER-8.md#mixinsdart) |
     
 __CHAPTER-9__  
