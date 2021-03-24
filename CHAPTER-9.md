@@ -4,7 +4,7 @@
 - By subscribing to the stream of meassages you are essentailly able to get the piece of data as they come in and as they get added to the stream.
 - Dart snapshots method gives us a stream and we can handle the stream using the widgets called StreamBuilder.
 - There are two kinds of streams Single Subscription and Broadcast.
-- __Single Subscription__ There could be a maximum of one listener to this stream.
+- __Single Subscription__ There could be a maximum of one listener to this stream and it listens to the values coming out of the stream.
 - __Broadcast__ There could be the infinite number of the listener to this stream.
 
 __Example__
@@ -29,6 +29,7 @@ __Extra Notes__
 - When we want to insert something in to the stream we can use this stream controller to added to the stream sink and the way out of the stream can be accessed with this     	stream property of the stream controller.
 - We can put simple values or events or objects or collections or maps and you could also pass arrows as well.
 - Stream controller is normally used to control the input of the stream.
+- We can close the Stream Controller and the stream will receive a done event.
 
 __Example__
 
@@ -70,10 +71,18 @@ void main() {
   addLessThanFive(controller, 4);
   addLessThanFive(controller, 5);
   
+  controller.close();
+  
+  //addLessThanFive(controller, 5);
+  
   controller.stream.listen((value){
-  print(value);
+    print(value);
+  }, onError: (error){
+    print(error);
+  }, onDone: (){
+    print('done');
   });
-}
+}                           
 ```
 
 ## StreamBuilder
