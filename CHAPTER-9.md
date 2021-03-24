@@ -7,6 +7,8 @@
 - __Single Subscription__ There could be a maximum of one listener to this stream.
 - __Broadcast__ There could be the infinite number of the listener to this stream.
 
+__Example__
+
 ```ruby
 @override
 Widget build(BuildContext context) {
@@ -20,7 +22,59 @@ Widget build(BuildContext context) {
           ),
         );
       });
-``` 
+```  
+
+__Extra Notes__
+
+- When we want to insert something in to the stream we can use this stream controller to added to the stream sink and the way out of the stream can be accessed with this     	stream property of the stream controller.
+- We can put simple values or events or objects or collections or maps and you could also pass arrows as well.
+- Stream controller is normally used to control the input of the stream.
+
+__Example__
+
+```ruby
+import 'dart:async';
+
+void main() {
+  final controller = StreamController();
+  
+  controller.sink.add(1);
+  controller.sink.add(2);
+  
+  controller.stream.listen((value){
+  print(value);
+  });
+}
+```
+
+__Example/Using Custom Logic__
+
+```ruby
+import 'dart:async';
+
+void addLessThanFive(StreamController controller, int value){
+
+  if(value < 5){
+    controller.sink.add(value);
+  } else {
+    controller.sink.addError(StateError('$value is not less than 5'));
+  }
+}
+
+void main() {
+  final controller = StreamController();
+  
+  addLessThanFive(controller, 1);
+  addLessThanFive(controller, 2);
+  addLessThanFive(controller, 3);
+  addLessThanFive(controller, 4);
+  addLessThanFive(controller, 5);
+  
+  controller.stream.listen((value){
+  print(value);
+  });
+}
+```
 
 ## StreamBuilder
 
