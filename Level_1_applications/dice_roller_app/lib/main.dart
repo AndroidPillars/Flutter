@@ -40,7 +40,7 @@ class _State extends State<StatefulWidget> {
         children: <Widget>[
           Expanded(
             flex: 1,
-            child: FlatButton(
+            child: TextButton(
               onPressed: () {
                 randomNumberSelection();
               },
@@ -51,7 +51,7 @@ class _State extends State<StatefulWidget> {
           ),
           Expanded(
             flex: 1,
-            child: FlatButton(
+            child: TextButton(
               onPressed: () {
                 randomNumberSelection();
               },
