@@ -206,4 +206,29 @@ __Controller__
 ```ruby
 provider: ^3.0.0+1
 ```
-- For demo application visit, https://github.com/AndroidPillars/Flutter/tree/master/Level_4_applications/todey_app_using_provider
+- For demo application visit, https://github.com/AndroidPillars/Flutter/tree/master/Level_4_applications/todey_app_using_provider  
+
+## BLOC Pattern
+
+- State Management Library used in Dart.
+- It helps us to seperate Presentation Layer from the Business Logic.
+- Three Layers -> UI, BLOC and Data
+- UI -> Presentation Layer which is the User Interface (i.e.) Shows Specific Widgets based on the state of the block.
+- It also handles the User Input that are translated to events and addeded to the block to trigger state changed.
+- BLOC -> Business Logic Area which is the brain of our block.
+- It takes the input from the presentation Layer based on the end user Action. 
+- It takes as well as inputs from any application Life Cycle Events based on the Input it builds new states to be consumed by the UI.
+- It is basically a bridge between data sources and our Widgets.  
+- Data -> Split in to Data Providers that perform crud Operations on Database .
+- It reduces lot of boilerplate code.
+- We use few of the widgets like Bloc Provider, Bloc Builder, Bloc Listener and Bloc Consumer.
+- The Equitable package is used to reduce lot of boilerplate code required to compare object and we will use whenever we will have a state change in our block.
+- It will also compares whether the new state to emit differs from the previous once. Hence it compares the different objects and if there isn't a difference between the new state and the previous data the block will not emit a new state change at all that's what we are using equitable package.
+
+
+
+- BLOC Provider -> By using the BLOC provider we can create a instance of a BLOC and we can use this widget as a dependency injection
+- BLOC Builder -> It helps us to decide which widget to show on the screen based on the Latest state emitted by the bloc 
+- BLOC Listener -> It differs from the Bloc Builder because now we are building different UI based on the state of the BLOC instead every time there is a state change 
+we can invoke a Listener and by invoking a Listener we can define different functionality for our app.
+For Example we can show a snackbar when there is a state change every time 
